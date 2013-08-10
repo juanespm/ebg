@@ -6,32 +6,7 @@
 	xmlns:a4j="http://richfaces.org/a4j">
 	<h:form>
 		<div class="toolbar">
-			<div class="navigation" style="float: left;">
-				<ul>
-					<li class="#{menuSelected =='home'?'active':''}"><a4j:commandLink
-							value="#{messages['menuHome']}" action="/home.xhtml">
-							<s:conversationPropagation type="none" />
-						</a4j:commandLink></li>
-					<li class="#{menuSelected=='adminFlyers'?'active':''}"><a4j:commandLink
-							value="#{messages['menuAdminFlyers']}"
-							action="/flyer/list.xhtml">
-							<s:conversationPropagation type="none" />
-						</a4j:commandLink></li>
-					<li class="#{menuSelected=='configuration'?'active':''}"><a4j:commandLink
-							value="#{messages['menuConfiguration']}"
-							action="/configuration/user/list.xhtml">
-							<s:conversationPropagation type="none" />
-						</a4j:commandLink></li>
-					<li class="#{menuSelected=='reports'?'active':''} end"><a4j:commandLink
-							value="#{messages['menuReports']}" action="/reports.xhtml">
-							<s:conversationPropagation type="none" />
-						</a4j:commandLink></li>
-					<li class="#{menuSelected=='about'?'active':''} end"><a4j:commandLink
-							value="#{messages['menuAbout']}" action="/about.xhtml">
-							<s:conversationPropagation type="none" />
-						</a4j:commandLink></li>
-				</ul>
-			</div>
+			
 			<div class="navigation" style="float: right;">
 				<h:outputText
 					value="#{messages['userWelcome']} ( #{credentials.username} )"

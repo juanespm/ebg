@@ -12,10 +12,9 @@
 	
     <ui:define name="body">        
         <rich:panel>
-        	<h1>#{messages['welcome']} #{credentials.username}</h1>
         
         	<fieldset class="border">
-				<legend class="title">#{messages['flyers']}</legend>
+				<legend class="title">#{messages['dashboard.user.title']}</legend>
 				<table>
 					<tr>
 						<td>#{messages['publishedPlural']}</td>
@@ -35,81 +34,9 @@
 					</tr>
 				</table>					
 			</fieldset>
+		
 			
-			<fieldset class="border">
-				<legend class="title">#{messages['users']}</legend>
-				<table>
-					<tr>
-						<td>#{messages['actives']}</td>
-						
-					</tr>
-					<tr>
-						<td>#{messages['inactives']}</td>
-						
-					</tr>
-					<tr>
-						<td>#{messages['removed']}</td>
-					
-					</tr>
-					<tr>
-						<td>#{messages['total']}</td>
-					</tr>
-				</table>
-			</fieldset>
-			
-			<fieldset class="border">
-				<legend class="title">#{messages['categories']}</legend>
-				<table>
-					<tr>
-						<td>#{messages['actives']}</td>
-					</tr>
-					<tr>
-						<td>#{messages['inactives']}</td>
-					</tr>
-					<tr>
-						<td>#{messages['removed']}</td>
-					</tr>
-					<tr>
-						<td>#{messages['total']}</td>
-					</tr>
-				</table>
-			</fieldset>
-       	
-        	<fieldset class="border">
-				<legend class="title">#{messages['consumers']}</legend>
-				<table>
-					<thead>
-						<thead>
-							<tr>
-								<th></th>
-								<th>#{messages['actives']}</th>
-								<th>#{messages['confirmedPlural']}</th>
-							</tr>
-						</thead>
-					</thead>
-					<tr>
-						<td>Android</td>
-						<td>25</td>
-						<td>25</td>
-					</tr>
-					<tr>
-						<td>Blackberry</td>
-						<td>10</td>
-						<td>10</td>
-					</tr>
-					<tr>
-						<td>iPhone</td>
-						<td>10</td>
-						<td>10</td>
-					</tr>
-					<tr>
-						<td>#{messages['total']}</td>
-						<td>45</td>
-						<td>45</td>
-					</tr>
-				</table>
-			</fieldset>
-        	
+                	
         </rich:panel>
     </ui:define>
 </ui:composition>
