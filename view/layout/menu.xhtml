@@ -11,7 +11,6 @@
 				<h:outputText
 					value="#{messages['userWelcome']} ( #{credentials.username} )"
 					rendered="#{identity.loggedIn}" />
-
 				<ul>
 					<li class="#{menuSelected=='profile'?'active':''} end"><a4j:commandLink
 							value="#{messages['profile']}" action="/profile.xhtml"
