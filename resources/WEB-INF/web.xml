@@ -86,7 +86,7 @@
 		<auth-constraint />
 	</security-constraint>
 
-	<servlet>
+	<!--  <servlet>
 		<servlet-name>FlyerServices</servlet-name>
 		<servlet-class>ch.swissbytes.flyerserver.ws.FlyerServices</servlet-class>
 	</servlet>
@@ -94,7 +94,7 @@
 		<servlet-name>FlyerServices</servlet-name>
 		<url-pattern>/flyerServices</url-pattern>
 	</servlet-mapping>
-
+-->
 	<filter>
 		<filter-name>Seam Servlet Filter</filter-name>
 		<filter-class>org.jboss.seam.servlet.SeamServletFilter</filter-class>
@@ -104,14 +104,14 @@
 		<url-pattern>/flyerServices</url-pattern>
 	</filter-mapping>
 
-	<servlet>
+	<!--  <servlet>
 		<servlet-name>LocalImagesServlet</servlet-name>
 		<servlet-class>ch.swissbytes.flyerserver.servlet.ImagesServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>LocalImagesServlet</servlet-name>
 		<url-pattern>/imgresource</url-pattern>
-	</servlet-mapping>
+	</servlet-mapping>-->
 
 	<!-- JSONP support -->
 	<filter>

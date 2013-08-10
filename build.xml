@@ -597,7 +597,7 @@
 			</path>
 		</copy>
 		<!-- Flyer images -->
-
+<!--
 		<mkdir dir="${jboss.data.dir}/flyer-imgs" />
 
 		<copy file="${basedir}/src/test/resources/img/image_orig.jpg"
@@ -607,7 +607,7 @@
 			tofile="${jboss.data.dir}/flyer-imgs/1/1/1/large.jpg" />
 
 		<copy file="${basedir}/src/test/resources/img/image_small.jpg"
-			tofile="${jboss.data.dir}/flyer-imgs/1/1/1/small.jpg" />
+			tofile="${jboss.data.dir}/flyer-imgs/1/1/1/small.jpg" />-->
 	</target>
 
 	<target name="unexplode" description="Undeploy the exploded archive">
