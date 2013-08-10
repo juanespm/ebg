@@ -293,10 +293,10 @@ table.radio input[type=radio] {
 }
 
 .header {
-	height: 100px;
+	height: 130px;
 	margin-left: 180px;
 	margin-top: -30px;
-	background: #FFF url("../img/banner.png") no-repeat scroll left top;
+	background: #FFF url("../img/logo.png") no-repeat scroll left top;
 }
 
 .header a {

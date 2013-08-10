@@ -24,22 +24,24 @@
 		</s:div>
 		<s:div styleClass="clear"></s:div>
 		<s:div styleClass="content">
-
 			<s:div>
 				<span></span>
 			</s:div>
+			<br />
+			<br />
+			<div class="center">
+				<ui:remove>
+					<h:messages id="messages" globalOnly="true" styleClass="message"
+						errorClass="errormsg" infoClass="infomsg" warnClass="warnmsg"
+						rendered="#{showGlobalMessages != 'false'}" />
+				</ui:remove>
+				<ui:insert name="body" />
+			</div>
+			<br />
+			<br />
 			<s:div>
-				<div class="center">
-					<ui:remove>
-						<h:messages id="messages" globalOnly="true" styleClass="message"
-							errorClass="errormsg" infoClass="infomsg" warnClass="warnmsg"
-							rendered="#{showGlobalMessages != 'false'}" />
-					</ui:remove>
-					<ui:insert name="body" />
-				</div>
+				<ui:include src="footer.xhtml" />
 			</s:div>
-
-			<ui:include src="footer.xhtml" />
 		</s:div>
 	</s:div>
 </body>
