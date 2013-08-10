@@ -10,6 +10,13 @@
 			</rule>
 		</navigation>
 	</page>
+	<page view-id="/login.xhtml">
+		<navigation>
+			<rule if="#{identity.loggedIn}">
+				<redirect view-id="/home.xhtml" />
+			</rule>
+		</navigation>
+	</page>
 	<page view-id="/home.xhtml" login-required="true" />
 	<exception class="org.jboss.seam.framework.EntityNotFoundException">
 		<redirect view-id="/error.xhtml">
