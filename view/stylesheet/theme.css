@@ -141,9 +141,12 @@ option {
 
 .name {
 	vertical-align: top;
+	margin-top:10px;
+	margin-right:5px;
 	/*font-weight: bold;*/
 	width: 75px;
 	float: left;
+	text-align: right;
 	/*padding-bottom: 5px;*/
 	/*padding: 5px;*/
 	/*margin-top: 3px;*/
@@ -166,6 +169,7 @@ option {
 
 .value {
 	float: left;
+	margin-top: 10px;
 	/*padding-bottom: 5px;*/
 	/*padding: 5px;*/
 }
@@ -1137,7 +1141,7 @@ rich-calendar-input {
 /** End toggle panel **/
 fieldset.border {
 	padding: 10px;
-	border: 1px solid #EEEEEF;
+	border: 3px solid #EEEEEF;
 }
 
 legend.title {
