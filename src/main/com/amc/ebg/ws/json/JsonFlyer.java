@@ -1,11 +1,9 @@
 package com.amc.ebg.ws.json;
 
-import com.amc.xsd.datatypes.FlyerType;
-
 import java.util.Date;
 
 /**
- * @author Timoteo Ponce
+ * @author Alvaro Cardozo
  */
 public class JsonFlyer {
 
@@ -20,12 +18,12 @@ public class JsonFlyer {
     public JsonFlyer() {
     }
 
-    public JsonFlyer(final FlyerType item) {
-        setId(item.getId().intValue());
-        setTitle(item.getTitle());
-        setUrlOfFlyer(item.getUrlOfFlyer());
-        setEventDate(item.getEventDate().toGregorianCalendar().getTime());
-    }
+    // public JsonFlyer(final FlyerType item) {
+    // setId(item.getId().intValue());
+    // setTitle(item.getTitle());
+    // setUrlOfFlyer(item.getUrlOfFlyer());
+    // setEventDate(item.getEventDate().toGregorianCalendar().getTime());
+    // }
 
     public Integer getId() {
         return id;
