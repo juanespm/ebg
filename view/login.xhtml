@@ -38,13 +38,11 @@
 							style="width:230px;" />
 					</s:decorate>
 				</s:div>
-				<br />
-				<s:div style="text-align: left; margin-top: 10px;">
+				<br />		
 					<div align="left">
 						<a4j:commandLink oncomplete=""
 							value="#{messages['login.forgotpassword']}" />
 					</div>
-
 					<div align="right">
 						<h:commandLink id="loginButton" styleClass="button b-24px"
 							action="#{identity.login()}">
@@ -54,7 +52,6 @@
 							<s:defaultAction />
 						</h:commandLink>
 					</div>
-				</s:div>
 			</h:form>
 		</fieldset>
 	</ui:define>
