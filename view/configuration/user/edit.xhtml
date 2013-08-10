@@ -1,0 +1,44 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:a4j="http://richfaces.org/a4j"
+	template="/layout/template.xhtml">
+	
+	<ui:param name="menuSelected" value="adminFlyers" />
+	<ui:param name="usermenuSelected" value="userAccount" />	
+
+	<ui:define name="body">
+		<ui:include src="edit_menu.xhtml" />
+		
+		<h:form id="flyerForm">
+			<fieldset id="border" class="border">			
+				<legend class="title">#{messages['accountData']}</legend>
+				
+				<h:panelGrid columns="1">
+				
+				<s:decorate template="/layout/edit.xhtml" rendered="#{identity.hasRole('ADMINISTRATOR')}">
+					<ui:define name="label">#{messages['selectAccount']}</ui:define>					
+					<h:selectOneRadio value="#{usersAction.form.accountId}" layout="pageDirection" required="true">
+						<f:selectItems value="#{selectItemsProvider.accounts}"/>
+					</h:selectOneRadio>				
+				</s:decorate>
+				
+				<s:decorate template="/layout/edit.xhtml" rendered="#{identity.hasRole('AGENCY_MANAGER')}">
+					<ui:define name="label">#{messages['selectAccount']}</ui:define>		
+					<h:outputText value="#{selectItemsProvider.getSingleItem('ch.swissbytes.flyerserver.domain.entities.Account',usersAction.form.accountId).label}" />
+				</s:decorate>
+				
+				<div style="float: right;">
+					<h:commandButton value="#{messages['actions.continue']}" action="/configuration/user/edit_2.xhtml"/>
+					<s:button value="#{messages['actions.cancel']}" view="/configuration/user/list.xhtml" propagation="none"/>
+				</div>
+				
+				</h:panelGrid>
+			</fieldset>						
+		</h:form>
+	</ui:define>
+</ui:composition>

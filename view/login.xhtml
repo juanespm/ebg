@@ -1,0 +1,56 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:a4j="http://richfaces.org/a4j"
+	template="layout/template_clear.xhtml">
+
+	<ui:remove>
+		<ui:define name="head">
+			<a4j:loadScript src="/js/jquery.corner.js" />
+			<rich:jQuery query="corner()" selector=".mytooltip"></rich:jQuery>
+		</ui:define>
+	</ui:remove>
+
+	<ui:define name="body">
+		<s:div styleClass="login-panel">
+			<h1>#{messages['login.title']}</h1>
+			<h:form>
+				<rich:messages id="message" styleClass="message"
+					infoLabelClass="login-infomsg"
+					style="padding-right: 30px; text-align: center;" level="INFO">
+				</rich:messages>
+				<h:panelGrid>
+					<s:decorate template="/layout/edit.xhtml" id="username">
+						<ui:define name="label">#{messages['login.username']}</ui:define>
+						<h:inputText value="#{credentials.username}" required="true"
+							style="width:262px;" />
+					</s:decorate>
+					<s:decorate template="/layout/edit.xhtml" id="password">
+						<ui:define name="label">#{messages['login.password']}</ui:define>
+						<h:inputSecret value="#{credentials.password}" required="true"
+							style="width:262px;" />
+					</s:decorate>
+				</h:panelGrid>
+				<a4j:commandLink oncomplete=""
+					value="#{messages['login.forgotpassword']}" />
+				<s:div
+					style="text-align: right; margin-top: 10px; padding-right: 31px; overflow: hidden;">
+					<s:div style="float: right;">
+						<h:commandLink id="loginButton" styleClass="button b-24px"
+							action="#{identity.login()}">
+							<s:span>
+								<h:outputText value="#{messages['login.button.login']}" />
+							</s:span>
+							<s:defaultAction />
+						</h:commandLink>
+					</s:div>
+				</s:div>
+			</h:form>
+		</s:div>
+	</ui:define>
+</ui:composition>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Persistence deployment descriptor for dev profile -->
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+	
+	<!-- USED FOR TEST PURPOSES -->
+	
+	<persistence-unit name="testPU">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		
+		<class>com.amc.ebg.domain.entities.Account</class>
+		<class>com.amc.ebg.domain.entities.AccountType</class>
+		<class>com.amc.ebg.domain.entities.ActionType</class>
+		<class>com.amc.ebg.domain.entities.AdvancedConfiguration</class>
+		<class>com.amc.ebg.domain.entities.Category</class>
+		<class>com.amc.ebg.domain.entities.CategoryPublisher</class>
+		<class>com.amc.ebg.domain.entities.CategorySubscription</class>
+		<class>com.amc.ebg.domain.entities.Consumer</class>
+		<class>com.amc.ebg.domain.entities.ConsumerVerification</class>
+		<class>com.amc.ebg.domain.entities.Contract</class>
+		<class>com.amc.ebg.domain.entities.FavoriteFlyer</class>
+		<class>com.amc.ebg.domain.entities.Flyer</class>
+		<class>com.amc.ebg.domain.entities.FlyerLogEntry</class>
+		<class>com.amc.ebg.domain.entities.FlyerStatus</class>
+		<class>com.amc.ebg.domain.entities.LinkAction</class>
+		<class>com.amc.ebg.domain.entities.LinkHash</class>
+		<class>com.amc.ebg.domain.entities.Location</class>
+		<class>com.amc.ebg.domain.entities.Permission</class>
+		<class>com.amc.ebg.domain.entities.RoleRegistration</class>
+		<class>com.amc.ebg.domain.entities.RolePermission</class>
+		<class>com.amc.ebg.domain.entities.Roles</class>
+		<class>com.amc.ebg.domain.entities.Roles2</class>
+		<class>com.amc.ebg.domain.entities.Status</class>
+		<class>com.amc.ebg.domain.entities.Users</class>
+		<class>com.amc.ebg.domain.entities.Users2</class>
+		<class>com.amc.ebg.domain.entities.UserStatus</class>
+		<class>com.amc.ebg.domain.entities.UserLogEntry</class>
+		<!-- for h2 -->
+		<properties>
+			<property name="hibernate.connection.username" value="sa" />
+			<property name="hibernate.connection.password" value="" />
+			<property name="hibernate.connection.driver_class" value="org.h2.Driver" />			
+			<property name="hibernate.connection.url" value="jdbc:h2:~/tmp/ebg;MODE=MySQLSQL;AUTO_SERVER=TRUE;MVCC=TRUE" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect" />
+			<property name="hibernate.show_sql" value="false" />
+			<property name="hibernate.format_sql" value="true" />
+			<property name="hibernate.hbm2ddl.auto" value="create-drop" />
+			<property name="hibernate.cache.provider_class" value="org.hibernate.cache.HashtableCacheProvider" />
+			<property name="hibernate.transaction.flush_before_completion" value="true" />
+			
+			<property name="hibernate.connection.pool_size" value="5" />
+			<property name="hibernate.c3p0.acquireIncrement" value="1" />
+			<property name="hibernate.c3p0.initialPoolSize" value="1" />
+			<property name="hibernate.c3p0.maxPoolSize" value="10" />
+			<property name="hibernate.c3p0.maxIdleTime" value="1200" />
+			<property name="hibernate.c3p0.minPoolSize" value="1" />							
+		</properties>	
+	</persistence-unit>
+	
+	
+
+</persistence>

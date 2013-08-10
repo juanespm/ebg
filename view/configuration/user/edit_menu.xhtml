@@ -1,0 +1,34 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:a4j="http://richfaces.org/a4j">
+	
+	<h:form>
+	<div class="toolbar">
+		<div class="navigation" style="float: left;">
+			<ul>
+				<li class="#{usermenuSelected =='userAccount'?'active':''}">
+					<a4j:commandLink
+						value="#{messages['menuUserAccount']}" action="/configuration/user/edit.xhtml">					
+					</a4j:commandLink>
+				</li>
+				<li class="#{usermenuSelected == 'userData'?'active':''}">
+					<a4j:commandLink
+						value="#{messages['menuUserData']}" action="/configuration/user/edit_2.xhtml">					
+					</a4j:commandLink>
+				</li>
+				<li class="#{usermenuSelected == 'userLocation'?'active':''}">
+					<a4j:commandLink
+						value="#{messages['menuUserLocation']}"	action="/configuration/user/edit_3.xhtml">						
+					</a4j:commandLink>
+				</li>					
+			</ul>
+		</div>
+	</div>
+	</h:form>
+		
+</ui:composition>

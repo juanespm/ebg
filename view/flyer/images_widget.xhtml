@@ -1,0 +1,57 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:a4j="http://richfaces.org/a4j">
+	
+	<a4j:loadStyle src="/stylesheet/jquery.lightbox-0.5.css"/>
+	<a4j:loadScript src="/js/jquery.lightbox-0.5.js"/>
+					
+	<script type="text/javascript">
+		jQuery(document).ready(function() {
+			jQuery('#gallery a').lightBox();			
+		});					 						    
+	</script>
+	
+	<s:fragment rendered="#{isPreview}">
+		<div id="gallery">
+			<ul>
+				<li>
+					<a href="/flyerserver/imgresource?type=tmp&#38;id=#{imageId}" title="preview">
+						<img src="/flyerserver/imgresource?type=tmp&#38;id=#{imageId}" 
+							width="200" height="200" alt=""/>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</s:fragment>
+				
+	<s:fragment rendered="#{not isPreview}">   	
+		<div id="gallery">
+			<ul>
+				<li>
+					<a href="/flyerserver/imgresource?type=small&#38;id=#{imageId}" title="small">
+						<img src="/flyerserver/imgresource?type=small&#38;id=#{imageId}" 
+							width="120" height="120" alt=""/>
+					</a>
+				</li>
+				<li>
+					<a href="/flyerserver/imgresource?type=default&#38;id=#{imageId}" title="medium">
+						<img src="/flyerserver/imgresource?type=default&#38;id=#{imageId}" 
+							width="140" height="140" alt=""/>
+					</a>
+				</li>
+				<li>
+					<a href="/flyerserver/imgresource?type=large&#38;id=#{imageId}" title="large">
+						<img src="/flyerserver/imgresource?type=large&#38;id=#{imageId}" 
+							width="200" height="200" alt=""/>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</s:fragment>									
+	
+</ui:composition>

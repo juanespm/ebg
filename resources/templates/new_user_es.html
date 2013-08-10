@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>User creation</title>
+	<style type="text/css">
+		body {
+			font-size:	11.0pt;
+			font-family:Calibri;
+			color:#1F497D;
+		}
+		.footer{
+			margin-left:20px; 
+			margin-top:20px;
+			font-size:	11.0pt;
+			font-family:Calibri;
+			mso-ascii-theme-font:minor-latin;
+			mso-hansi-theme-font:minor-latin;
+			mso-bidi-font-family: Calibri, "Times New Roman";
+			mso-bidi-theme-font:minor-bidi;
+			color:#1F497D;
+		}
+		.tableClass {
+			border: 1px solid #e3e3e3;
+			background-color: #f2f2f2;
+		    width: 700px;
+			border-radius: 6px;
+			-webkit-border-radius: 6px;
+			-moz-border-radius: 6px;
+		}
+		.tableClass td, .tableClass th {
+			padding: 5px;
+		}
+		.tableClass thead {
+			font-family: Calibri, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			padding: .2em 0 .2em .5em;
+			text-align: center;			
+			background-color: #94BEE6;
+			background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#e3e3e3), color-stop(.6,#B3B3B3));
+			background-image: -moz-linear-gradient(top, #D6D6D6, #B0B0B0, #B3B3B3 90%);
+			border-bottom: solid 1px #999;
+		}
+		.tableClass th {
+			font-family: Calibri,'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			line-height: 20px;
+			font-style: normal;
+			font-weight: normal;
+			text-align: center;
+			text-shadow: white 1px 1px 1px;
+		}
+		.tableClass td {
+			line-height: 20px;
+			font-family: Calibri, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size: 12px;
+			border-bottom: 1px solid #fff;
+			border-top: 1px solid #fff;
+		}
+		.tableClass td:hover {
+			background-color: #fff;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div style="margin-left:20px; margin-top:20px;">
+		<p>
+			Hola, <br/>
+			se ha registrado un nuevo usuario <b>${userName}</b> para usted.
+		</p>			
+		
+		<a href="${newUser.url}">Loguearse en FlyerServer</a>
+		<br/>		
+		Saludos.
+			
+	</div>
+	<div class="footer">
+		<p>		
+		Swissbytes Team<br/>
+		<br/>
+		<br/>
+		Swissbytes<br/>		 
+		<br/>
+		Relax while your software is being developed.
+		</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<mockup version="1.0" skin="sketch" measuredW="800" measuredH="519">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="790" h="509" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>EBG%0Ahttp%3A//www.ebg.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Label" x="255" y="444" w="260" h="25" measuredW="259" measuredH="25" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>CopyRight-2013%20Santa%20Cruz%20bolivia%20amc%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="__group__" x="170" y="87" w="388" h="77" measuredW="388" measuredH="77" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="12" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="314" h="77" measuredW="380" measuredH="400" zOrder="0" locked="false" isInGroup="15">
+          <controlProperties>
+            <src>./img/bg.jpg</src>
+            <filter>true</filter>
+          </controlProperties>
+        </control>
+        <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="320" y="26" w="68" h="51" measuredW="68" measuredH="51" zOrder="1" locked="false" isInGroup="15">
+          <controlProperties>
+            <text>EBG</text>
+            <size>32</size>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Label" x="170" y="211" w="366" h="25" measuredW="360" measuredH="25" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Una%20nueva%20clave%20ha%20sido%20enviada%20al%20correo%20amc@hotmail.com</text>
+        <bold>false</bold>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Link" x="407" y="251" w="-1" h="-1" measuredW="84" measuredH="25" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>ebg_web_login.bmml</href>
+        <text>iniciar%20sesion</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Label" x="301" y="251" w="103" h="25" measuredW="99" measuredH="25" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Quiere%20intentar</text>
+        <bold>false</bold>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,83 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:a4j="http://richfaces.org/a4j"
+	template="/layout/template.xhtml">
+	
+	<ui:param name="menuSelected" value="adminFlyers" />
+	<ui:param name="usermenuSelected" value="userData" />	
+
+	<ui:define name="body">
+		<ui:include src="edit_menu.xhtml" />
+		
+		<h:form id="flyerForm">
+			<fieldset id="border" class="border">			
+				<legend class="title">#{messages['userData']}</legend>
+				
+				<h:panelGrid columns="1">
+				
+				<s:decorate template="/layout/edit.xhtml" rendered="#{identity.hasRole('ADMINISTRATOR')}">
+					<ui:define name="label">#{messages['userType']}</ui:define>					
+					<h:selectOneMenu value="#{usersAction.form.role}" required="true">
+						<f:selectItems value="#{selectItemsProvider.getAvailableRoles('ADMINISTRATOR')}"/>
+					</h:selectOneMenu>				
+				</s:decorate>
+				
+				<s:decorate template="/layout/edit.xhtml" rendered="#{identity.hasRole('AGENCY_MANAGER')}">
+					<ui:define name="label">#{messages['userType']}</ui:define>					
+					<h:selectOneMenu value="#{usersAction.form.role}" required="true">
+						<f:selectItems value="#{selectItemsProvider.getAvailableRoles('AGENCY_MANAGER')}"/>
+					</h:selectOneMenu>
+				</s:decorate>
+				
+				<s:decorate template="/layout/edit.xhtml">
+					<ui:define name="label">#{messages['userName']}</ui:define>					
+					<h:inputText value="#{usersAction.form.name}" >
+					</h:inputText>
+				</s:decorate>
+				
+				<s:decorate template="/layout/edit.xhtml">
+					<ui:define name="label">#{messages['email']}</ui:define>					
+					<h:inputText value="#{usersAction.form.email}">
+						<f:validator validatorId="emailValidator"/>
+					</h:inputText>
+				</s:decorate>
+				
+				<s:decorate template="/layout/edit.xhtml">
+					<ui:define name="label">#{messages['generatePasswordAutomatically']}</ui:define>					
+					<h:selectBooleanCheckbox value="#{usersAction.form.generatePassword}">
+						<a4j:support event="onchange" reRender="pwdF,pwdVF" 
+							ajaxSingle="true" limitToList="true"/>
+					</h:selectBooleanCheckbox>
+				</s:decorate>
+								
+				<s:decorate id="pwdF" template="/layout/edit.xhtml">
+					<ui:define name="label">#{messages['password']}</ui:define>					
+					<h:inputSecret id="pwd" value="#{usersAction.form.pwd}" required="true"
+						disabled="#{usersAction.form.generatePassword}">
+						<f:validateLength minimum="5" maximum="25"/>						
+					</h:inputSecret>
+				</s:decorate>
+				
+				<s:decorate id="pwdVF" template="/layout/edit.xhtml">
+					<ui:define name="label">#{messages['passwordConfirm']}</ui:define>					
+					<h:inputSecret value="#{usersAction.form.pwdVerification}" required="true"
+						disabled="#{usersAction.form.generatePassword}">
+						<s:validateEquality for="pwd"/>						
+					</h:inputSecret>
+				</s:decorate>
+				
+				<div style="float: right;">
+					<h:commandButton value="#{messages['actions.continue']}" action="#{usersAction.next2()}"/>
+					<s:button value="#{messages['actions.cancel']}" view="/configuration/user/list.xhtml" propagation="none"/>
+				</div>
+				
+				</h:panelGrid>
+			</fieldset>						
+		</h:form>
+	</ui:define>
+</ui:composition>

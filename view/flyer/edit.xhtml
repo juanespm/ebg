@@ -1,0 +1,90 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:a4j="http://richfaces.org/a4j"
+	template="/layout/template.xhtml">
+	
+	<ui:param name="menuSelected" value="adminFlyers" />
+	<ui:param name="flyermenuSelected" value="flyerBasicData" />	
+
+	<ui:define name="body">
+		<ui:include src="edit_menu.xhtml" />
+		
+		<h:form id="flyerForm">
+			<fieldset id="border" class="border">			
+				<legend class="title">#{messages['newFlyer']}</legend>
+				
+				<h:panelGrid columns="1">
+				
+				<s:decorate template="/layout/edit.xhtml">
+					<ui:define name="label">#{messages['flyerTitle']}</ui:define>
+					<h:inputText value="#{flyerAction.form.title}" 
+						required="true"/>
+				</s:decorate>
+				
+				<s:decorate template="/layout/edit.xhtml">
+					<ui:define name="label">#{messages['category']}</ui:define>
+					<h:selectOneRadio value="#{flyerAction.form.categoryId}" layout="pageDirection" required="true">
+						<f:selectItems value="#{selectItemsProvider.getUserCategories( credentials.user )}"/>
+					</h:selectOneRadio>
+				</s:decorate>
+								
+				<s:decorate id="publicationF" template="/layout/edit.xhtml">
+					<ui:define name="label">#{messages['publicationDate']}</ui:define>
+					<rich:calendar id="publicationD" value="#{flyerAction.form.publicationDate}" 
+							datePattern="dd/MM/yyyy HH:mm" popup="true"
+							required="true"
+							validator="#{flyerAction.validatePublicationDate}">
+							<a4j:support event="onchanged" reRender="publicationF,eventDateF,expirationF"
+								ajaxSingle="true" limitToList="true">								
+							</a4j:support>					
+					</rich:calendar>
+				</s:decorate>
+				
+				<s:decorate id="eventDateF" template="/layout/edit.xhtml">
+					<ui:define name="label">#{messages['eventDate']}</ui:define>
+					<rich:calendar id="publicationD" value="#{flyerAction.form.eventDate}" 
+							datePattern="dd/MM/yyyy HH:mm" popup="true"
+							required="true"
+							validator="#{flyerAction.validateEventDate}">
+							<a4j:support event="onchanged" reRender="eventDateF,publicationF,expirationF"
+								ajaxSingle="true" limitToList="true">								
+							</a4j:support>					
+					</rich:calendar>
+				</s:decorate>
+					
+				<s:decorate id="expirationF" template="/layout/edit.xhtml"  rendered="false">
+					<ui:define name="label">#{messages['expirationDate']}</ui:define>
+					<rich:calendar value="#{flyerAction.form.expirationDate}"						 
+							datePattern="dd/MM/yyyy HH:mm" popup="true"
+							required="true"
+							validator="#{flyerAction.validateExpirationDate}">
+							<a4j:support event="onchanged" reRender="expirationF,publicationF,eventDateF"
+								ajaxSingle="true" limitToList="true">								
+							</a4j:support>
+					</rich:calendar>
+				</s:decorate>
+				
+				
+				<s:decorate template="/layout/edit.xhtml">
+					<ui:define name="label">#{messages['flyerLocation']}</ui:define>
+					<h:selectOneRadio value="#{flyerAction.form.locationId}" layout="pageDirection" required="true">
+						<f:selectItems value="#{selectItemsProvider.getAccountLocations( credentials.account )}"/>
+					</h:selectOneRadio>
+				</s:decorate>
+				
+				
+				<div style="float: right;">
+					<h:commandButton value="#{messages['actions.continue']}" action="/flyer/edit_2.xhtml"/>
+					<s:button value="#{messages['actions.cancel']}" view="/flyer/list.xhtml" propagation="none"/>
+				</div>
+				
+				</h:panelGrid>
+			</fieldset>						
+		</h:form>
+	</ui:define>
+</ui:composition>

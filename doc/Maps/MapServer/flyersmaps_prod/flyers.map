@@ -1,0 +1,122 @@
+MAP
+    NAME        "flyersmaps_wfs"
+    IMAGETYPE   AGGA
+    
+    CONFIG "MS_ERRORFILE" "logs/debug.log"
+    DEBUG 3
+    
+    OUTPUTFORMAT
+        NAME 'AGGA'
+        DRIVER AGG/PNG
+        IMAGEMODE RGBA
+        MIMETYPE "image/png"
+    END
+
+    WEB	
+        IMAGEPATH "/srv/www/htdocs/sb-mapserver/tmp"
+        IMAGEURL "/tmp/"
+        METADATA
+            "wfs_title"          "MapServer Swissbytes WMS Server"
+            "wfs_onlineresource" "http://127.0.0.1/cgi-bin/mapserv?MAP=/srv/www/htdocs/flyersmaps/flyersmaps.map"
+            "wfs_srs"            "EPSG:900913"
+            "wfs_abstract"      "Demostración de ofertas digitales para la fexpo."
+            "wfs_enable_request"   "*"
+            "wfs_namespace_prefix" "sb"
+            "wfs_namespace_uri" "http://swissbytes.ch/mapserv"
+        END    
+        
+        VALIDATION
+            # %ID% must be numeric
+            'ID'      '^[0-9]+$'
+        END
+    END
+   
+    PROJECTION    
+    #    "init=epsg:900913" #use this code XOR the parameters below
+        "proj=merc"
+        "a=6378137"
+        "b=6378137"
+        "lat_ts=0.0"
+        "lon_0=0.0"
+        "x_0=0.0"
+        "y_0=0"
+        "k=1.0"
+        "units=m"
+        "nadgrids=@null"
+        "wktext"
+        "over"
+        "no_defs"
+    END
+
+    LAYER 
+        NAME "Blocks"
+		METADATA
+            "wfs_title"		    "Blocks"
+            "wfs_onlineresource" "http://127.0.0.1/cgi-bin/mapserv?MAP=/srv/www/htdocs/flyersmaps/flyersmaps.map"
+            "wfs_srs"           "EPSG:900913" ## REQUIRED
+            "gml_include_items" "all" ## Optional (serves all attributes for layer)
+            "gml_featureid"     "ID" ## REQUIRED
+            "wfs_enable_request" "*"
+        END
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE POSTGIS
+        CONNECTION "host=192.168.0.96 dbname=flyer_prod_db user=flyer_app password=flyer_app port=5432"
+        DATA "the_geom FROM (SELECT b.location_geom AS the_geom,b.id AS bid FROM block b) AS foo USING srid=-1 USING UNIQUE bid"
+        DUMP TRUE
+    END
+
+    LAYER 
+        NAME "Pavilions"
+		METADATA
+            "wfs_title"		    "Pavilions"
+            "wfs_onlineresource" "http://127.0.0.1/cgi-bin/mapserv?MAP=/srv/www/htdocs/flyersmaps/flyersmaps.map"
+            "wfs_srs"           "EPSG:900913" ## REQUIRED
+            "gml_include_items" "all" ## Optional (serves all attributes for layer)
+            "gml_featureid"     "ID" ## REQUIRED
+            "wfs_enable_request" "*"
+        END
+        TYPE POLYGON
+        STATUS ON
+        CONNECTIONTYPE POSTGIS
+        CONNECTION "host=192.168.0.96 dbname=flyer_prod_db user=flyer_app password=flyer_app port=5432"
+        DATA "the_geom FROM (SELECT p.location_geom AS the_geom,p.id AS pid FROM PAVILION p) AS foo USING srid=-1 USING UNIQUE pid"
+        DUMP TRUE
+    END
+
+    LAYER 
+        NAME "Flyers"
+		METADATA
+            "wfs_title"		    "Flyers"
+            "wfs_onlineresource" "http://127.0.0.1/cgi-bin/mapserv?MAP=/srv/www/htdocs/flyersmaps/flyersmaps.map"
+            "wfs_srs"           "EPSG:900913" ## REQUIRED
+            "gml_include_items" "all" ## Optional (serves all attributes for layer)
+            "gml_featureid"     "ID" ## REQUIRED
+            "wfs_enable_request" "*"
+        END
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE POSTGIS
+        CONNECTION "host=192.168.0.96 dbname=flyer_prod_db user=flyer_app password=flyer_app port=5432"
+        DATA "the_geom FROM (SELECT l.location_geom AS the_geom,l.id AS lid FROM location l, flyer f WHERE f.id = %ID% AND f.location_id = l.id) AS foo USING srid=-1 USING UNIQUE lid"
+        DUMP TRUE
+    END
+
+    LAYER 
+        NAME "Locations"
+		METADATA
+            "wfs_title"		    "Locations"
+            "wfs_onlineresource" "http://127.0.0.1/cgi-bin/mapserv?MAP=/srv/www/htdocs/flyersmaps/flyersmaps.map"
+            "wfs_srs"           "EPSG:900913" ## REQUIRED
+            "gml_include_items" "all" ## Optional (serves all attributes for layer)
+            "gml_featureid"     "ID" ## REQUIRED
+            "wfs_enable_request" "*"
+        END
+        TYPE POINT
+        STATUS ON
+        CONNECTIONTYPE POSTGIS
+        CONNECTION "host=192.168.0.96 dbname=flyer_prod_db user=flyer_app password=flyer_app port=5432"
+        DATA "the_geom FROM (SELECT l.location_geom AS the_geom,l.id AS lid FROM location l WHERE l.id = %ID%) AS foo USING srid=-1 USING UNIQUE lid"
+        DUMP TRUE
+    END
+END

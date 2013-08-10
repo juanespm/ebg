@@ -1,0 +1,2053 @@
+[Mon Sep 10 10:09:38 2012].289381 CGI Request 1 on process 10599
+[Mon Sep 10 10:09:38 2012].292897 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].318458 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:09:38 2012].321289 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].325013 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].325083 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:09:38 2012].325209 mapserv request processing time (msLoadMap not incl.): 0.036s
+[Mon Sep 10 10:09:38 2012].327213 CGI Request 1 on process 10600
+[Mon Sep 10 10:09:38 2012].331743 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].358663 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:09:38 2012].361487 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].365317 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].365398 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:09:38 2012].365526 mapserv request processing time (msLoadMap not incl.): 0.038s
+[Mon Sep 10 10:09:38 2012].331660 CGI Request 1 on process 10601
+[Mon Sep 10 10:09:38 2012].335363 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].362255 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:09:38 2012].365859 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].369360 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].369438 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:09:38 2012].369558 mapserv request processing time (msLoadMap not incl.): 0.038s
+[Mon Sep 10 10:14:32 2012].836682 CGI Request 1 on process 10806
+[Mon Sep 10 10:14:32 2012].840228 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].864751 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:14:32 2012].867728 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].871419 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].871482 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:14:32 2012].871603 mapserv request processing time (msLoadMap not incl.): 0.035s
+[Mon Sep 10 10:14:32 2012].871739 CGI Request 1 on process 10804
+[Mon Sep 10 10:14:32 2012].877660 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].926337 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:14:32 2012].929408 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].933203 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].933292 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:14:32 2012].933447 mapserv request processing time (msLoadMap not incl.): 0.062s
+[Mon Sep 10 10:14:32 2012].872182 CGI Request 1 on process 10805
+[Mon Sep 10 10:14:32 2012].877671 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].927382 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:14:32 2012].931150 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].935241 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].935316 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:14:32 2012].935463 mapserv request processing time (msLoadMap not incl.): 0.063s
+[Mon Sep 10 10:15:39 2012].877972 CGI Request 1 on process 10884
+[Mon Sep 10 10:15:39 2012].881594 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].906729 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:15:39 2012].909711 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].913679 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].913775 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:15:39 2012].913917 mapserv request processing time (msLoadMap not incl.): 0.036s
+[Mon Sep 10 10:15:39 2012].909863 CGI Request 1 on process 10883
+[Mon Sep 10 10:15:39 2012].917234 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].943156 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:15:39 2012].946428 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].950710 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].950787 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:15:39 2012].950923 mapserv request processing time (msLoadMap not incl.): 0.041s
+[Mon Sep 10 10:15:39 2012].913697 CGI Request 1 on process 10885
+[Mon Sep 10 10:15:39 2012].918891 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].943567 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:15:39 2012].946745 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].952198 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].952262 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:15:39 2012].952359 mapserv request processing time (msLoadMap not incl.): 0.039s
+[Mon Sep 10 10:16:47 2012].870429 CGI Request 1 on process 10915
+[Mon Sep 10 10:16:47 2012].874047 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].899342 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:16:47 2012].902336 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].906699 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].906782 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:16:47 2012].906934 mapserv request processing time (msLoadMap not incl.): 0.037s
+[Mon Sep 10 10:16:47 2012].902693 CGI Request 1 on process 10914
+[Mon Sep 10 10:16:47 2012].910701 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].935063 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:16:47 2012].938081 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].942101 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].942159 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:16:47 2012].942257 mapserv request processing time (msLoadMap not incl.): 0.040s
+[Mon Sep 10 10:16:47 2012].905723 CGI Request 1 on process 10916
+[Mon Sep 10 10:16:47 2012].911774 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].936633 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:16:47 2012].940250 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].945834 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].945898 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:16:47 2012].945980 mapserv request processing time (msLoadMap not incl.): 0.040s
+[Mon Sep 10 10:19:34 2012].482841 CGI Request 1 on process 10937
+[Mon Sep 10 10:19:34 2012].505769 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].530380 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:19:34 2012].553698 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].553767 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].553848 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:19:34 2012].553944 mapserv request processing time (msLoadMap not incl.): 0.071s
+[Mon Sep 10 10:19:34 2012].520297 CGI Request 1 on process 10939
+[Mon Sep 10 10:19:34 2012].562445 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].594052 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:19:34 2012].618426 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].618500 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].618596 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:19:34 2012].618684 mapserv request processing time (msLoadMap not incl.): 0.098s
+[Mon Sep 10 10:19:34 2012].520201 CGI Request 1 on process 10938
+[Mon Sep 10 10:19:34 2012].562445 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].594019 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:19:34 2012].618405 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].618480 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].618579 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:19:34 2012].618704 mapserv request processing time (msLoadMap not incl.): 0.099s
+[Mon Sep 10 10:22:45 2012].982084 CGI Request 1 on process 10959
+[Mon Sep 10 10:22:46 2012].4919 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].32927 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:22:46 2012].69025 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].69099 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].69166 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:22:46 2012].69251 mapserv request processing time (msLoadMap not incl.): 0.087s
+[Mon Sep 10 10:22:46 2012].24204 CGI Request 1 on process 10961
+[Mon Sep 10 10:22:46 2012].50470 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].75126 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:22:46 2012].98620 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].98689 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].98783 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:22:46 2012].98900 mapserv request processing time (msLoadMap not incl.): 0.075s
+[Mon Sep 10 10:22:46 2012].19445 CGI Request 1 on process 10960
+[Mon Sep 10 10:22:46 2012].55289 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].89583 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:22:46 2012].112439 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].112507 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].112603 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:22:46 2012].112696 mapserv request processing time (msLoadMap not incl.): 0.093s
+[Mon Sep 10 10:26:03 2012].226839 CGI Request 1 on process 10984
+[Mon Sep 10 10:26:03 2012].249859 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:26:03 2012].274497 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:26:03 2012].297189 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:26:03 2012].297258 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:26:03 2012].297353 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:26:03 2012].297452 mapserv request processing time (msLoadMap not incl.): 0.071s
+[Mon Sep 10 10:26:03 2012].257934 CGI Request 1 on process 10983
+[Mon Sep 10 10:26:03 2012].299709 msPostGISLayerGetItems(): Query error. Error executing SQL: ERROR:  relation "blocks" does not exist
+LINE 1: select * from BLOCKS b where false limit 0
+                      ^
+
+[Mon Sep 10 10:26:03 2012].328209 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:26:03 2012].353021 msPostGISLayerGetItems(): Query error. Error executing SQL: ERROR:  relation "blocks" does not exist
+LINE 1: select * from BLOCKS b where false limit 0
+                      ^
+
+[Mon Sep 10 10:26:03 2012].353111 msPostGISBuildSQL(): General error message. Failed to build SQL 'where'.
+[Mon Sep 10 10:26:03 2012].353141 msPostGISLayerWhichShapes(): Query error. Failed to build query SQL.
+[Mon Sep 10 10:26:03 2012].353229 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:26:03 2012].353338 mapserv request processing time (msLoadMap not incl.): 0.095s
+[Mon Sep 10 10:26:03 2012].263131 CGI Request 1 on process 10985
+[Mon Sep 10 10:26:03 2012].302701 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:26:03 2012].330374 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:26:03 2012].356913 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:26:03 2012].356996 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:26:03 2012].357101 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:26:03 2012].357213 mapserv request processing time (msLoadMap not incl.): 0.094s
+[Mon Sep 10 10:28:59 2012].669396 CGI Request 1 on process 11074
+[Mon Sep 10 10:28:59 2012].692192 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:28:59 2012].717396 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:28:59 2012].739983 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:28:59 2012].740052 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:28:59 2012].740146 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:28:59 2012].740244 mapserv request processing time (msLoadMap not incl.): 0.071s
+[Mon Sep 10 10:28:59 2012].702574 CGI Request 1 on process 11073
+[Mon Sep 10 10:28:59 2012].745099 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom,b.id,b.zone_num,b.block_num'
+[Mon Sep 10 10:28:59 2012].774492 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:28:59 2012].815840 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom,b.id,b.zone_num,b.block_num'
+[Mon Sep 10 10:28:59 2012].815919 msPostGISBuildSQL(): General error message. Failed to build SQL 'where'.
+[Mon Sep 10 10:28:59 2012].815939 msPostGISLayerWhichShapes(): Query error. Failed to build query SQL.
+[Mon Sep 10 10:28:59 2012].816045 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:28:59 2012].816130 mapserv request processing time (msLoadMap not incl.): 0.114s
+[Mon Sep 10 10:28:59 2012].708020 CGI Request 1 on process 11075
+[Mon Sep 10 10:28:59 2012].748981 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:28:59 2012].777597 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:28:59 2012].816754 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:28:59 2012].816853 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:28:59 2012].816926 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:28:59 2012].817021 mapserv request processing time (msLoadMap not incl.): 0.109s
+[Mon Sep 10 10:29:52 2012].804335 CGI Request 1 on process 11087
+[Mon Sep 10 10:29:52 2012].827247 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:29:52 2012].852728 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:29:52 2012].875419 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:29:52 2012].875492 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:29:52 2012].875575 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:29:52 2012].875715 mapserv request processing time (msLoadMap not incl.): 0.071s
+[Mon Sep 10 10:29:52 2012].836711 CGI Request 1 on process 11086
+[Mon Sep 10 10:29:52 2012].878967 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom as the_geom,b.id,b.zone_num,b.block_num'
+[Mon Sep 10 10:29:52 2012].923959 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:29:52 2012].950328 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom as the_geom,b.id,b.zone_num,b.block_num'
+[Mon Sep 10 10:29:52 2012].950405 msPostGISBuildSQL(): General error message. Failed to build SQL 'where'.
+[Mon Sep 10 10:29:52 2012].950421 msPostGISLayerWhichShapes(): Query error. Failed to build query SQL.
+[Mon Sep 10 10:29:52 2012].950500 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:29:52 2012].950598 mapserv request processing time (msLoadMap not incl.): 0.114s
+[Mon Sep 10 10:29:52 2012].844186 CGI Request 1 on process 11088
+[Mon Sep 10 10:29:52 2012].884634 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:29:52 2012].929161 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:29:52 2012].951749 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:29:52 2012].951839 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:29:52 2012].951994 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:29:52 2012].952123 mapserv request processing time (msLoadMap not incl.): 0.108s
+[Mon Sep 10 10:31:26 2012].737662 CGI Request 1 on process 11122
+[Mon Sep 10 10:31:26 2012].781633 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:31:26 2012].832728 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:31:26 2012].857259 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:31:26 2012].857332 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:31:26 2012].857428 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:31:26 2012].857530 mapserv request processing time (msLoadMap not incl.): 0.120s
+[Mon Sep 10 10:31:26 2012].736673 CGI Request 1 on process 11120
+[Mon Sep 10 10:31:26 2012].780848 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom as the_geom,b.id,b.zone_num,b.block_num'
+[Mon Sep 10 10:31:26 2012].821695 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:31:26 2012].867204 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom as the_geom,b.id,b.zone_num,b.block_num'
+[Mon Sep 10 10:31:26 2012].867303 msPostGISBuildSQL(): General error message. Failed to build SQL 'where'.
+[Mon Sep 10 10:31:26 2012].867326 msPostGISLayerWhichShapes(): Query error. Failed to build query SQL.
+[Mon Sep 10 10:31:26 2012].867400 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:31:26 2012].867507 mapserv request processing time (msLoadMap not incl.): 0.131s
+[Mon Sep 10 10:31:26 2012].737562 CGI Request 1 on process 11121
+[Mon Sep 10 10:31:26 2012].781631 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:31:26 2012].832249 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:31:26 2012].873933 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:31:26 2012].874002 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:31:26 2012].874085 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:31:26 2012].874186 mapserv request processing time (msLoadMap not incl.): 0.137s
+[Mon Sep 10 10:32:49 2012].544163 CGI Request 1 on process 11136
+[Mon Sep 10 10:32:49 2012].567001 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:32:49 2012].592294 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:32:49 2012].614964 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:32:49 2012].615034 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:32:49 2012].615128 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:32:49 2012].615244 mapserv request processing time (msLoadMap not incl.): 0.071s
+[Mon Sep 10 10:32:49 2012].579834 CGI Request 1 on process 11137
+[Mon Sep 10 10:32:49 2012].620868 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:32:49 2012].649775 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:32:49 2012].674834 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:32:49 2012].674908 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:32:49 2012].674990 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:32:49 2012].675089 mapserv request processing time (msLoadMap not incl.): 0.095s
+[Mon Sep 10 10:32:49 2012].575912 CGI Request 1 on process 11135
+[Mon Sep 10 10:32:49 2012].618626 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom as the_geom,b.id,b.zone_number,b.block_number'
+[Mon Sep 10 10:32:49 2012].648412 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:32:49 2012].675136 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom as the_geom,b.id,b.zone_number,b.block_number'
+[Mon Sep 10 10:32:49 2012].675223 msPostGISBuildSQL(): General error message. Failed to build SQL 'where'.
+[Mon Sep 10 10:32:49 2012].675239 msPostGISLayerWhichShapes(): Query error. Failed to build query SQL.
+[Mon Sep 10 10:32:49 2012].675321 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:32:49 2012].675422 mapserv request processing time (msLoadMap not incl.): 0.100s
+[Mon Sep 10 10:41:37 2012].901551 CGI Request 1 on process 11246
+[Mon Sep 10 10:41:37 2012].924438 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:41:37 2012].950749 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:41:37 2012].973338 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:41:37 2012].973405 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:41:37 2012].973501 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:41:37 2012].973608 mapserv request processing time (msLoadMap not incl.): 0.072s
+[Mon Sep 10 10:41:37 2012].927138 CGI Request 1 on process 11245
+[Mon Sep 10 10:41:37 2012].969913 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom as the_geom,b.id,b.zone_number,b.block_number'
+[Mon Sep 10 10:41:37 2012].999386 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:41:38 2012].24672 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom as the_geom,b.id,b.zone_number,b.block_number'
+[Mon Sep 10 10:41:38 2012].25231 msPostGISLayerWhichShapes(): Query error. Error executing query: ERROR:  syntax error at or near "SELECT"
+LINE 1: ...),'NDR'),'hex') as geom,"b.id" from block b where SELECT b.l...
+                                                             ^
+ 
+[Mon Sep 10 10:41:38 2012].25317 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:41:38 2012].25409 mapserv request processing time (msLoadMap not incl.): 0.098s
+[Mon Sep 10 10:41:37 2012].932340 CGI Request 1 on process 11247
+[Mon Sep 10 10:41:37 2012].972518 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:41:38 2012].2569 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:41:38 2012].27836 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:41:38 2012].27906 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:41:38 2012].27989 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:41:38 2012].28102 mapserv request processing time (msLoadMap not incl.): 0.096s
+[Mon Sep 10 10:44:04 2012].411236 CGI Request 1 on process 11266
+[Mon Sep 10 10:44:04 2012].460437 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:44:04 2012].507069 msPostGISLayerWhichShapes(): Query error. Error executing query: ERROR:  column "b.id" does not exist
+LINE 1: ...ary(ST_Force_2D("the_geom"),'NDR'),'hex') as geom,"b.id" fro...
+                                                             ^
+ 
+[Mon Sep 10 10:44:04 2012].507170 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:44:04 2012].507271 mapserv request processing time (msLoadMap not incl.): 0.096s
+[Mon Sep 10 10:44:04 2012].453043 CGI Request 1 on process 11267
+[Mon Sep 10 10:44:04 2012].497158 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:44:04 2012].528998 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:44:04 2012].552811 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:44:04 2012].552879 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:44:04 2012].552962 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:44:04 2012].553108 mapserv request processing time (msLoadMap not incl.): 0.100s
+[Mon Sep 10 10:44:04 2012].453147 CGI Request 1 on process 11268
+[Mon Sep 10 10:44:04 2012].497153 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:44:04 2012].531424 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:44:04 2012].554257 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:44:04 2012].554338 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:44:04 2012].554433 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:44:04 2012].554543 mapserv request processing time (msLoadMap not incl.): 0.101s
+[Mon Sep 10 10:45:34 2012].789413 CGI Request 1 on process 11409
+[Mon Sep 10 10:45:34 2012].812215 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:45:34 2012].850946 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:45:34 2012].886224 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:45:34 2012].886313 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:45:34 2012].886377 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:45:34 2012].886463 mapserv request processing time (msLoadMap not incl.): 0.097s
+[Mon Sep 10 10:45:34 2012].826481 CGI Request 1 on process 11410
+[Mon Sep 10 10:45:34 2012].849070 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:45:34 2012].873980 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:45:34 2012].896742 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:45:34 2012].896813 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:45:34 2012].896916 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:45:34 2012].897038 mapserv request processing time (msLoadMap not incl.): 0.071s
+[Mon Sep 10 10:45:34 2012].820196 CGI Request 1 on process 11408
+[Mon Sep 10 10:45:34 2012].896795 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:45:34 2012].947849 mapserv request processing time (msLoadMap not incl.): 0.128s
+[Mon Sep 10 10:47:44 2012].713274 CGI Request 1 on process 11427
+[Mon Sep 10 10:47:44 2012].766397 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:47:44 2012].817094 mapserv request processing time (msLoadMap not incl.): 0.104s
+[Mon Sep 10 10:47:44 2012].744743 CGI Request 1 on process 11426
+[Mon Sep 10 10:47:44 2012].828906 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:47:44 2012].885430 mapserv request processing time (msLoadMap not incl.): 0.141s
+[Mon Sep 10 10:47:44 2012].750806 CGI Request 1 on process 11428
+[Mon Sep 10 10:47:44 2012].832597 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:47:44 2012].885448 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Mon Sep 10 10:47:44 2012].885604 mapserv request processing time (msLoadMap not incl.): 0.135s
+[Mon Sep 10 10:48:46 2012].277716 CGI Request 1 on process 11446
+[Mon Sep 10 10:48:46 2012].365797 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:48:46 2012].454037 mapserv request processing time (msLoadMap not incl.): 0.176s
+[Mon Sep 10 10:48:46 2012].296463 CGI Request 1 on process 11447
+[Mon Sep 10 10:48:46 2012].383906 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:48:46 2012].469648 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Mon Sep 10 10:48:46 2012].469814 mapserv request processing time (msLoadMap not incl.): 0.173s
+[Mon Sep 10 10:48:46 2012].287253 CGI Request 1 on process 11445
+[Mon Sep 10 10:48:46 2012].376641 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:48:46 2012].473570 mapserv request processing time (msLoadMap not incl.): 0.186s
+[Mon Sep 10 10:58:44 2012].405409 CGI Request 1 on process 11500
+[Mon Sep 10 10:58:44 2012].467890 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:58:44 2012].549353 mapserv request processing time (msLoadMap not incl.): 0.144s
+[Mon Sep 10 10:58:44 2012].436269 CGI Request 1 on process 11499
+[Mon Sep 10 10:58:44 2012].510819 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:58:44 2012].562686 mapserv request processing time (msLoadMap not incl.): 0.126s
+[Mon Sep 10 10:58:44 2012].442193 CGI Request 1 on process 11501
+[Mon Sep 10 10:58:44 2012].494050 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:58:44 2012].566871 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Mon Sep 10 10:58:44 2012].567008 mapserv request processing time (msLoadMap not incl.): 0.125s
+[Mon Sep 10 11:45:57 2012].363013 CGI Request 1 on process 11856
+[Mon Sep 10 11:45:57 2012].413973 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 11:45:57 2012].464282 mapserv request processing time (msLoadMap not incl.): 0.101s
+[Mon Sep 10 11:45:57 2012].401808 CGI Request 1 on process 11857
+[Mon Sep 10 11:45:57 2012].483636 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 11:45:57 2012].533105 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Mon Sep 10 11:45:57 2012].533258 mapserv request processing time (msLoadMap not incl.): 0.131s
+[Mon Sep 10 11:45:57 2012].394848 CGI Request 1 on process 11855
+[Mon Sep 10 11:45:57 2012].480501 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 11:45:57 2012].534000 mapserv request processing time (msLoadMap not incl.): 0.139s
+[Mon Sep 10 17:32:41 2012].188695 CGI Request 1 on process 13574
+[Mon Sep 10 17:32:41 2012].239897 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 17:32:41 2012].290341 mapserv request processing time (msLoadMap not incl.): 0.102s
+[Mon Sep 10 17:32:41 2012].225351 CGI Request 1 on process 13575
+[Mon Sep 10 17:32:41 2012].309348 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 17:32:41 2012].361505 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Mon Sep 10 17:32:41 2012].361652 mapserv request processing time (msLoadMap not incl.): 0.136s
+[Mon Sep 10 17:32:41 2012].219499 CGI Request 1 on process 13573
+[Mon Sep 10 17:32:41 2012].308273 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 17:32:41 2012].364637 mapserv request processing time (msLoadMap not incl.): 0.145s
+[Tue Sep 11 11:00:32 2012].463013 CGI Request 1 on process 18833
+[Tue Sep 11 11:00:32 2012].517240 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 11:00:32 2012].565117 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Tue Sep 11 11:00:32 2012].565255 mapserv request processing time (msLoadMap not incl.): 0.102s
+[Tue Sep 11 11:00:32 2012].496209 CGI Request 1 on process 18831
+[Tue Sep 11 11:00:32 2012].578085 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 11:00:32 2012].630908 mapserv request processing time (msLoadMap not incl.): 0.135s
+[Tue Sep 11 11:00:32 2012].503532 CGI Request 1 on process 18832
+[Tue Sep 11 11:00:32 2012].583593 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 11:00:32 2012].635928 mapserv request processing time (msLoadMap not incl.): 0.132s
+[Tue Sep 11 11:36:41 2012].90966 CGI Request 1 on process 19004
+[Tue Sep 11 11:36:41 2012].141709 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 11:36:41 2012].192666 mapserv request processing time (msLoadMap not incl.): 0.102s
+[Tue Sep 11 11:36:41 2012].130718 CGI Request 1 on process 19006
+[Tue Sep 11 11:36:41 2012].215119 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 11:36:41 2012].267414 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Tue Sep 11 11:36:41 2012].267558 mapserv request processing time (msLoadMap not incl.): 0.137s
+[Tue Sep 11 11:36:41 2012].130612 CGI Request 1 on process 19005
+[Tue Sep 11 11:36:41 2012].214059 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 11:36:41 2012].271491 mapserv request processing time (msLoadMap not incl.): 0.141s
+[Tue Sep 11 14:37:42 2012].248372 CGI Request 1 on process 20238
+[Tue Sep 11 14:37:42 2012].301675 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 14:37:42 2012].351814 mapserv request processing time (msLoadMap not incl.): 0.103s
+[Tue Sep 11 14:37:42 2012].281175 CGI Request 1 on process 20237
+[Tue Sep 11 14:37:42 2012].363926 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 14:37:42 2012].419908 mapserv request processing time (msLoadMap not incl.): 0.139s
+[Tue Sep 11 14:37:42 2012].290954 CGI Request 1 on process 20239
+[Tue Sep 11 14:37:42 2012].373196 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 14:37:42 2012].427167 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Tue Sep 11 14:37:42 2012].427310 mapserv request processing time (msLoadMap not incl.): 0.136s
+[Tue Sep 11 14:38:10 2012].642936 CGI Request 1 on process 20259
+[Tue Sep 11 14:38:10 2012].692666 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 14:38:10 2012].772848 mapserv request processing time (msLoadMap not incl.): 0.130s
+[Tue Sep 11 14:38:10 2012].683504 CGI Request 1 on process 20260
+[Tue Sep 11 14:38:10 2012].776272 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 14:38:10 2012].829369 mapserv request processing time (msLoadMap not incl.): 0.146s
+[Tue Sep 11 14:38:10 2012].683616 CGI Request 1 on process 20261
+[Tue Sep 11 14:38:10 2012].780357 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 14:38:10 2012].831771 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Tue Sep 11 14:38:10 2012].831943 mapserv request processing time (msLoadMap not incl.): 0.148s
+[Tue Sep 11 14:40:29 2012].606947 CGI Request 1 on process 20292
+[Tue Sep 11 14:40:29 2012].657040 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 14:40:29 2012].708257 mapserv request processing time (msLoadMap not incl.): 0.101s
+[Tue Sep 11 14:40:29 2012].643155 CGI Request 1 on process 20294
+[Tue Sep 11 14:40:29 2012].731614 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 14:40:29 2012].781777 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Tue Sep 11 14:40:29 2012].781931 mapserv request processing time (msLoadMap not incl.): 0.139s
+[Tue Sep 11 14:40:29 2012].643046 CGI Request 1 on process 20293
+[Tue Sep 11 14:40:29 2012].732228 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 14:40:29 2012].784473 mapserv request processing time (msLoadMap not incl.): 0.141s
+[Tue Sep 11 14:42:39 2012].383221 CGI Request 1 on process 20313
+[Tue Sep 11 14:42:39 2012].433007 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 14:42:39 2012].488403 mapserv request processing time (msLoadMap not incl.): 0.105s
+[Tue Sep 11 14:42:39 2012].394278 CGI Request 1 on process 20314
+[Tue Sep 11 14:42:39 2012].448669 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 14:42:39 2012].523396 mapserv request processing time (msLoadMap not incl.): 0.129s
+[Tue Sep 11 14:42:39 2012].515511 CGI Request 1 on process 20318
+[Tue Sep 11 14:42:39 2012].565752 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 14:42:39 2012].612993 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Tue Sep 11 14:42:39 2012].613135 mapserv request processing time (msLoadMap not incl.): 0.098s
+[Tue Sep 11 14:43:12 2012].984048 CGI Request 1 on process 20335
+[Tue Sep 11 14:43:13 2012].34153 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 14:43:13 2012].84478 mapserv request processing time (msLoadMap not incl.): 0.100s
+[Tue Sep 11 14:43:13 2012].20153 CGI Request 1 on process 20336
+[Tue Sep 11 14:43:13 2012].106513 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 14:43:13 2012].158497 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Tue Sep 11 14:43:13 2012].158650 mapserv request processing time (msLoadMap not incl.): 0.139s
+[Tue Sep 11 14:43:13 2012].19413 CGI Request 1 on process 20334
+[Tue Sep 11 14:43:13 2012].106804 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 14:43:13 2012].160227 mapserv request processing time (msLoadMap not incl.): 0.141s
+[Tue Sep 11 15:44:05 2012].122869 CGI Request 1 on process 20660
+[Tue Sep 11 15:44:05 2012].174986 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 15:44:05 2012].225299 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Tue Sep 11 15:44:05 2012].225448 mapserv request processing time (msLoadMap not incl.): 0.103s
+[Tue Sep 11 15:44:05 2012].152172 CGI Request 1 on process 20659
+[Tue Sep 11 15:44:05 2012].238054 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 15:44:05 2012].294332 mapserv request processing time (msLoadMap not incl.): 0.142s
+[Tue Sep 11 15:44:05 2012].160050 CGI Request 1 on process 20661
+[Tue Sep 11 15:44:05 2012].248798 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 15:44:05 2012].301983 mapserv request processing time (msLoadMap not incl.): 0.142s
+[Tue Sep 11 18:27:34 2012].626231 CGI Request 1 on process 21566
+[Tue Sep 11 18:27:34 2012].677979 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 18:27:34 2012].729020 mapserv request processing time (msLoadMap not incl.): 0.103s
+[Tue Sep 11 18:27:34 2012].667139 CGI Request 1 on process 21568
+[Tue Sep 11 18:27:34 2012].748661 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 18:27:34 2012].799267 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Tue Sep 11 18:27:34 2012].799415 mapserv request processing time (msLoadMap not incl.): 0.132s
+[Tue Sep 11 18:27:34 2012].664101 CGI Request 1 on process 21567
+[Tue Sep 11 18:27:34 2012].751264 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Tue Sep 11 18:27:34 2012].803133 mapserv request processing time (msLoadMap not incl.): 0.139s
+[Wed Sep 12 08:47:45 2012].294709 CGI Request 1 on process 26931
+[Wed Sep 12 08:47:45 2012].295821 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 08:47:45 2012].320771 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 08:47:45 2012].321203 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 08:47:45 2012].321520 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 08:47:45 2012].321541 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 08:47:45 2012].321606 mapserv request processing time (msLoadMap not incl.): 0.027s
+[Wed Sep 12 08:47:45 2012].308080 CGI Request 1 on process 26930
+[Wed Sep 12 08:47:45 2012].309635 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 08:47:45 2012].348898 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 08:47:45 2012].349443 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 08:47:45 2012].349808 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 08:47:45 2012].349835 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 08:47:45 2012].349925 mapserv request processing time (msLoadMap not incl.): 0.042s
+[Wed Sep 12 08:47:45 2012].328809 CGI Request 1 on process 26932
+[Wed Sep 12 08:47:45 2012].330221 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 08:47:45 2012].365726 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 08:47:45 2012].366236 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 08:47:45 2012].366523 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 08:47:45 2012].366544 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 08:47:45 2012].366613 mapserv request processing time (msLoadMap not incl.): 0.038s
+[Wed Sep 12 11:55:30 2012].722377 CGI Request 1 on process 28246
+[Wed Sep 12 11:55:30 2012].723438 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 11:55:30 2012].749333 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 11:55:30 2012].749756 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 11:55:30 2012].750039 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 11:55:30 2012].750060 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 11:55:30 2012].750125 mapserv request processing time (msLoadMap not incl.): 0.028s
+[Wed Sep 12 11:55:30 2012].757437 CGI Request 1 on process 28245
+[Wed Sep 12 11:55:30 2012].759025 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 11:55:30 2012].784104 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 11:55:30 2012].784630 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 11:55:30 2012].784927 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 11:55:30 2012].784948 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 11:55:30 2012].785018 mapserv request processing time (msLoadMap not incl.): 0.028s
+[Wed Sep 12 11:55:30 2012].757957 CGI Request 1 on process 28244
+[Wed Sep 12 11:55:30 2012].759163 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 11:55:30 2012].784811 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 11:55:30 2012].785293 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 11:55:30 2012].785607 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 11:55:30 2012].785628 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 11:55:30 2012].785694 mapserv request processing time (msLoadMap not incl.): 0.028s
+[Wed Sep 12 14:10:20 2012].906371 CGI Request 1 on process 29167
+[Wed Sep 12 14:10:20 2012].907525 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:10:20 2012].933144 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:10:20 2012].933591 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:10:20 2012].933923 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:10:20 2012].933945 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:10:20 2012].934012 mapserv request processing time (msLoadMap not incl.): 0.028s
+[Wed Sep 12 14:10:20 2012].954724 CGI Request 1 on process 29168
+[Wed Sep 12 14:10:20 2012].955814 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:10:20 2012].980682 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:10:20 2012].981150 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:10:20 2012].981443 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:10:20 2012].981464 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:10:20 2012].981528 mapserv request processing time (msLoadMap not incl.): 0.027s
+[Wed Sep 12 14:10:20 2012].975531 CGI Request 1 on process 29169
+[Wed Sep 12 14:10:20 2012].976599 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:10:21 2012].1208 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:10:21 2012].1764 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:10:21 2012].2042 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:10:21 2012].2062 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:10:21 2012].2126 mapserv request processing time (msLoadMap not incl.): 0.027s
+[Wed Sep 12 14:14:17 2012].427912 CGI Request 1 on process 29192
+[Wed Sep 12 14:14:17 2012].429009 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:14:17 2012].453536 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:14:17 2012].453962 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:14:17 2012].454255 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:14:17 2012].454276 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:14:17 2012].454340 mapserv request processing time (msLoadMap not incl.): 0.026s
+[Wed Sep 12 14:14:17 2012].467381 CGI Request 1 on process 29193
+[Wed Sep 12 14:14:17 2012].468486 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:14:17 2012].492445 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:14:17 2012].492839 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:14:17 2012].493143 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:14:17 2012].493164 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:14:17 2012].493226 mapserv request processing time (msLoadMap not incl.): 0.026s
+[Wed Sep 12 14:14:17 2012].467064 CGI Request 1 on process 29194
+[Wed Sep 12 14:14:17 2012].468241 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:14:17 2012].493576 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:14:17 2012].494070 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:14:17 2012].494405 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:14:17 2012].494426 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:14:17 2012].494493 mapserv request processing time (msLoadMap not incl.): 0.027s
+[Wed Sep 12 14:17:01 2012].186008 CGI Request 1 on process 29234
+[Wed Sep 12 14:17:01 2012].187074 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:01 2012].212633 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:17:01 2012].213045 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:01 2012].213653 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:01 2012].213675 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:17:01 2012].213741 mapserv request processing time (msLoadMap not incl.): 0.028s
+[Wed Sep 12 14:17:01 2012].212450 CGI Request 1 on process 29232
+[Wed Sep 12 14:17:01 2012].214129 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:01 2012].261284 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:17:01 2012].261709 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:01 2012].262011 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:01 2012].262033 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:17:01 2012].262096 mapserv request processing time (msLoadMap not incl.): 0.050s
+[Wed Sep 12 14:17:01 2012].218093 CGI Request 1 on process 29233
+[Wed Sep 12 14:17:01 2012].219417 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:01 2012].264181 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:17:01 2012].264765 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:01 2012].265107 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:01 2012].265129 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:17:01 2012].265203 mapserv request processing time (msLoadMap not incl.): 0.047s
+[Wed Sep 12 14:17:29 2012].28038 CGI Request 1 on process 29241
+[Wed Sep 12 14:17:29 2012].29159 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:29 2012].54297 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:17:29 2012].54706 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:29 2012].54994 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:29 2012].55014 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:17:29 2012].55078 mapserv request processing time (msLoadMap not incl.): 0.027s
+[Wed Sep 12 14:17:29 2012].64651 CGI Request 1 on process 29242
+[Wed Sep 12 14:17:29 2012].66045 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:29 2012].93697 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:17:29 2012].94207 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:29 2012].94524 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:29 2012].94544 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:17:29 2012].94613 mapserv request processing time (msLoadMap not incl.): 0.030s
+[Wed Sep 12 14:17:29 2012].64553 CGI Request 1 on process 29240
+[Wed Sep 12 14:17:29 2012].67564 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:29 2012].94737 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:17:29 2012].95233 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:29 2012].95531 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:17:29 2012].95553 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:17:29 2012].95621 mapserv request processing time (msLoadMap not incl.): 0.031s
+[Wed Sep 12 14:18:20 2012].546218 CGI Request 1 on process 29255
+[Wed Sep 12 14:18:20 2012].547325 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:20 2012].571822 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:18:20 2012].572234 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:20 2012].572524 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:20 2012].572546 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:18:20 2012].572609 mapserv request processing time (msLoadMap not incl.): 0.026s
+[Wed Sep 12 14:18:20 2012].573456 CGI Request 1 on process 29253
+[Wed Sep 12 14:18:20 2012].575082 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:20 2012].601942 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:18:20 2012].602471 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:20 2012].602764 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:20 2012].602785 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:18:20 2012].602865 mapserv request processing time (msLoadMap not incl.): 0.029s
+[Wed Sep 12 14:18:20 2012].578883 CGI Request 1 on process 29254
+[Wed Sep 12 14:18:20 2012].580179 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:20 2012].605307 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:18:20 2012].605791 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:20 2012].606149 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:20 2012].606171 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:18:20 2012].606249 mapserv request processing time (msLoadMap not incl.): 0.027s
+[Wed Sep 12 14:18:55 2012].246467 CGI Request 1 on process 29265
+[Wed Sep 12 14:18:55 2012].247503 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:55 2012].272070 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:18:55 2012].272497 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:55 2012].272793 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:55 2012].272814 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:18:55 2012].272879 mapserv request processing time (msLoadMap not incl.): 0.026s
+[Wed Sep 12 14:18:55 2012].285123 CGI Request 1 on process 29267
+[Wed Sep 12 14:18:55 2012].286287 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:55 2012].311184 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:18:55 2012].311626 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:55 2012].311927 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:55 2012].311947 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:18:55 2012].312011 mapserv request processing time (msLoadMap not incl.): 0.027s
+[Wed Sep 12 14:18:55 2012].285364 CGI Request 1 on process 29266
+[Wed Sep 12 14:18:55 2012].286504 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:55 2012].311455 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 14:18:55 2012].311920 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:55 2012].312226 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 14:18:55 2012].312247 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 14:18:55 2012].312313 mapserv request processing time (msLoadMap not incl.): 0.027s
+[Wed Sep 12 15:08:57 2012].599039 CGI Request 1 on process 29844
+[Wed Sep 12 15:08:57 2012].600198 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:08:57 2012].625192 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:08:57 2012].625663 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:08:57 2012].625978 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:08:57 2012].626000 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:08:57 2012].626069 mapserv request processing time (msLoadMap not incl.): 0.027s
+[Wed Sep 12 15:08:57 2012].624073 CGI Request 1 on process 29842
+[Wed Sep 12 15:08:57 2012].625868 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:08:57 2012].654401 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:08:57 2012].654947 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:08:57 2012].655270 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:08:57 2012].655292 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:08:57 2012].655359 mapserv request processing time (msLoadMap not incl.): 0.031s
+[Wed Sep 12 15:08:57 2012].637847 CGI Request 1 on process 29843
+[Wed Sep 12 15:08:57 2012].638876 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:08:57 2012].663766 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:08:57 2012].664342 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:08:57 2012].664621 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:08:57 2012].664651 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:08:57 2012].664716 mapserv request processing time (msLoadMap not incl.): 0.027s
+[Wed Sep 12 15:09:34 2012].609310 CGI Request 1 on process 29850
+[Wed Sep 12 15:09:34 2012].611003 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:09:34 2012].666641 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:09:34 2012].676087 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:09:34 2012].676640 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:09:34 2012].676668 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:09:34 2012].676761 mapserv request processing time (msLoadMap not incl.): 0.067s
+[Wed Sep 12 15:09:34 2012].660882 CGI Request 1 on process 29849
+[Wed Sep 12 15:09:34 2012].662620 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:09:34 2012].702726 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:09:34 2012].703252 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:09:34 2012].703626 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:09:34 2012].703653 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:09:34 2012].703744 mapserv request processing time (msLoadMap not incl.): 0.043s
+[Wed Sep 12 15:09:34 2012].682498 CGI Request 1 on process 29851
+[Wed Sep 12 15:09:34 2012].683779 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:09:34 2012].717973 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:09:34 2012].718493 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:09:34 2012].718778 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:09:34 2012].718809 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:09:34 2012].718885 mapserv request processing time (msLoadMap not incl.): 0.036s
+[Wed Sep 12 15:32:34 2012].194272 CGI Request 1 on process 30168
+[Wed Sep 12 15:32:34 2012].195872 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:32:34 2012].241559 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:32:34 2012].242308 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:32:34 2012].242716 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:32:34 2012].242744 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:32:34 2012].242840 mapserv request processing time (msLoadMap not incl.): 0.049s
+[Wed Sep 12 15:32:34 2012].232275 CGI Request 1 on process 30169
+[Wed Sep 12 15:32:34 2012].233369 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:32:34 2012].259060 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:32:34 2012].259517 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:32:34 2012].259845 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:32:34 2012].259866 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:32:34 2012].259931 mapserv request processing time (msLoadMap not incl.): 0.028s
+[Wed Sep 12 15:32:34 2012].256138 CGI Request 1 on process 30170
+[Wed Sep 12 15:32:34 2012].257181 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:32:34 2012].282228 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:32:34 2012].282745 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:32:34 2012].283054 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:32:34 2012].283074 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:32:34 2012].283138 mapserv request processing time (msLoadMap not incl.): 0.027s
+[Wed Sep 12 15:35:10 2012].45365 CGI Request 1 on process 30228
+[Wed Sep 12 15:35:10 2012].46458 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:35:10 2012].72193 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:35:10 2012].72619 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:35:10 2012].72929 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:35:10 2012].72951 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:35:10 2012].73017 mapserv request processing time (msLoadMap not incl.): 0.028s
+[Wed Sep 12 15:35:10 2012].72810 CGI Request 1 on process 30226
+[Wed Sep 12 15:35:10 2012].74582 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:35:10 2012].102042 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:35:10 2012].102452 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:35:10 2012].102767 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:35:10 2012].102790 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:35:10 2012].102866 mapserv request processing time (msLoadMap not incl.): 0.030s
+[Wed Sep 12 15:35:10 2012].76319 CGI Request 1 on process 30227
+[Wed Sep 12 15:35:10 2012].77596 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:35:10 2012].102701 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:35:10 2012].103268 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:35:10 2012].103555 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:35:10 2012].103576 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:35:10 2012].103675 mapserv request processing time (msLoadMap not incl.): 0.027s
+[Wed Sep 12 15:38:49 2012].213469 CGI Request 1 on process 30250
+[Wed Sep 12 15:38:49 2012].214522 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:38:49 2012].240185 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:38:49 2012].240584 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:38:49 2012].240872 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:38:49 2012].240892 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:38:49 2012].240956 mapserv request processing time (msLoadMap not incl.): 0.027s
+[Wed Sep 12 15:38:49 2012].252609 CGI Request 1 on process 30252
+[Wed Sep 12 15:38:49 2012].254049 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:38:49 2012].279070 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:38:49 2012].279487 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:38:49 2012].279770 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:38:49 2012].279792 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:38:49 2012].279858 mapserv request processing time (msLoadMap not incl.): 0.027s
+[Wed Sep 12 15:38:49 2012].252512 CGI Request 1 on process 30251
+[Wed Sep 12 15:38:49 2012].254143 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:38:49 2012].279723 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:38:49 2012].280211 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:38:49 2012].280524 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:38:49 2012].280546 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:38:49 2012].280612 mapserv request processing time (msLoadMap not incl.): 0.028s
+[Wed Sep 12 15:39:21 2012].12328 CGI Request 1 on process 30258
+[Wed Sep 12 15:39:21 2012].13432 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:39:21 2012].38954 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:39:21 2012].39426 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:39:21 2012].39731 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:39:21 2012].39753 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:39:21 2012].39822 mapserv request processing time (msLoadMap not incl.): 0.027s
+[Wed Sep 12 15:39:21 2012].50665 CGI Request 1 on process 30260
+[Wed Sep 12 15:39:21 2012].51875 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:39:21 2012].76420 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:39:21 2012].76876 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:39:21 2012].77158 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:39:21 2012].77179 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:39:21 2012].77243 mapserv request processing time (msLoadMap not incl.): 0.027s
+[Wed Sep 12 15:39:21 2012].50551 CGI Request 1 on process 30259
+[Wed Sep 12 15:39:21 2012].51779 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:39:21 2012].77503 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:39:21 2012].77967 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:39:21 2012].78296 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:39:21 2012].78318 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:39:21 2012].78402 mapserv request processing time (msLoadMap not incl.): 0.028s
+[Wed Sep 12 15:43:08 2012].401960 CGI Request 1 on process 30307
+[Wed Sep 12 15:43:08 2012].403594 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:43:08 2012].449277 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:43:08 2012].450010 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:43:08 2012].450457 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:43:08 2012].450486 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:43:08 2012].450586 mapserv request processing time (msLoadMap not incl.): 0.049s
+[Wed Sep 12 15:43:08 2012].496408 CGI Request 1 on process 30308
+[Wed Sep 12 15:43:08 2012].497946 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:43:08 2012].544360 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:43:08 2012].545025 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:43:08 2012].545406 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:43:08 2012].545431 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:43:08 2012].545523 mapserv request processing time (msLoadMap not incl.): 0.049s
+[Wed Sep 12 15:43:08 2012].501106 CGI Request 1 on process 30309
+[Wed Sep 12 15:43:08 2012].502402 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:43:08 2012].552242 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:43:08 2012].552826 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:43:08 2012].553145 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:43:08 2012].553169 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:43:08 2012].553271 mapserv request processing time (msLoadMap not incl.): 0.052s
+[Wed Sep 12 15:48:08 2012].399398 CGI Request 1 on process 30447
+[Wed Sep 12 15:48:08 2012].400512 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:08 2012].427020 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:48:08 2012].427480 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:08 2012].427779 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:08 2012].427800 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:48:08 2012].427866 mapserv request processing time (msLoadMap not incl.): 0.028s
+[Wed Sep 12 15:48:08 2012].421282 CGI Request 1 on process 30446
+[Wed Sep 12 15:48:08 2012].422889 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:08 2012].465846 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:48:08 2012].466376 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:08 2012].466749 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:08 2012].466775 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:48:08 2012].466858 mapserv request processing time (msLoadMap not incl.): 0.046s
+[Wed Sep 12 15:48:08 2012].435364 CGI Request 1 on process 30448
+[Wed Sep 12 15:48:08 2012].436789 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:08 2012].476170 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:48:08 2012].476698 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:08 2012].476988 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:08 2012].477009 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:48:08 2012].477085 mapserv request processing time (msLoadMap not incl.): 0.042s
+[Wed Sep 12 15:48:28 2012].641404 CGI Request 1 on process 30455
+[Wed Sep 12 15:48:28 2012].643114 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:28 2012].684861 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:48:28 2012].685663 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:28 2012].686121 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:28 2012].686155 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:48:28 2012].686276 mapserv request processing time (msLoadMap not incl.): 0.045s
+[Wed Sep 12 15:48:28 2012].644503 CGI Request 1 on process 30454
+[Wed Sep 12 15:48:28 2012].646016 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:28 2012].691682 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:48:28 2012].692295 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:28 2012].692657 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:28 2012].692682 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:48:28 2012].692768 mapserv request processing time (msLoadMap not incl.): 0.048s
+[Wed Sep 12 15:48:28 2012].652943 CGI Request 1 on process 30456
+[Wed Sep 12 15:48:28 2012].654266 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:28 2012].699151 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 15:48:28 2012].699661 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:28 2012].699996 msPostGISLayerOpen(): Query error. Database connection failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" and accepting
+	TCP/IP connections on port 5432?
+) with connect string 'host=localhost dbname=flyer_prod_db user=flyer_app password=********* port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Wed Sep 12 15:48:28 2012].700018 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Wed Sep 12 15:48:28 2012].700089 mapserv request processing time (msLoadMap not incl.): 0.047s
+[Wed Sep 12 16:02:51 2012].307946 CGI Request 1 on process 30717
+[Wed Sep 12 16:02:51 2012].359368 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 16:02:51 2012].410122 mapserv request processing time (msLoadMap not incl.): 0.102s
+[Wed Sep 12 16:02:51 2012].338648 CGI Request 1 on process 30716
+[Wed Sep 12 16:02:51 2012].424704 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 16:02:51 2012].487390 mapserv request processing time (msLoadMap not incl.): 0.149s
+[Wed Sep 12 16:02:51 2012].344813 CGI Request 1 on process 30718
+[Wed Sep 12 16:02:51 2012].436227 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 16:02:51 2012].494365 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Wed Sep 12 16:02:51 2012].494512 mapserv request processing time (msLoadMap not incl.): 0.150s
+[Wed Sep 12 16:04:59 2012].605971 CGI Request 1 on process 30745
+[Wed Sep 12 16:04:59 2012].657176 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 16:04:59 2012].709250 mapserv request processing time (msLoadMap not incl.): 0.103s
+[Wed Sep 12 16:04:59 2012].570900 CGI Request 1 on process 30747
+[Wed Sep 12 16:04:59 2012].633069 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 16:04:59 2012].709566 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Wed Sep 12 16:04:59 2012].709715 mapserv request processing time (msLoadMap not incl.): 0.139s
+[Wed Sep 12 16:04:59 2012].605970 CGI Request 1 on process 30746
+[Wed Sep 12 16:04:59 2012].693385 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 16:04:59 2012].751956 mapserv request processing time (msLoadMap not incl.): 0.146s
+[Wed Sep 12 16:08:25 2012].489782 CGI Request 1 on process 30780
+[Wed Sep 12 16:08:25 2012].543870 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 16:08:25 2012].592745 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Wed Sep 12 16:08:25 2012].592895 mapserv request processing time (msLoadMap not incl.): 0.103s
+[Wed Sep 12 16:08:25 2012].524774 CGI Request 1 on process 30779
+[Wed Sep 12 16:08:25 2012].610738 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 16:08:25 2012].663764 mapserv request processing time (msLoadMap not incl.): 0.139s
+[Wed Sep 12 16:08:25 2012].524769 CGI Request 1 on process 30778
+[Wed Sep 12 16:08:25 2012].611698 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 16:08:25 2012].665407 mapserv request processing time (msLoadMap not incl.): 0.141s
+[Wed Sep 12 16:09:03 2012].517137 CGI Request 1 on process 30800
+[Wed Sep 12 16:09:03 2012].569707 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 16:09:03 2012].621132 mapserv request processing time (msLoadMap not incl.): 0.104s
+[Wed Sep 12 16:09:03 2012].557990 CGI Request 1 on process 30802
+[Wed Sep 12 16:09:03 2012].652727 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 16:09:03 2012].705333 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Wed Sep 12 16:09:03 2012].705475 mapserv request processing time (msLoadMap not incl.): 0.147s
+[Wed Sep 12 16:09:03 2012].557891 CGI Request 1 on process 30801
+[Wed Sep 12 16:09:03 2012].651378 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Wed Sep 12 16:09:03 2012].706956 mapserv request processing time (msLoadMap not incl.): 0.149s
+[Thu Sep 13 10:48:54 2012].317356 CGI Request 1 on process 7696
+[Thu Sep 13 10:48:54 2012].374644 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 10:48:54 2012].455740 mapserv request processing time (msLoadMap not incl.): 0.138s
+[Thu Sep 13 10:48:54 2012].356505 CGI Request 1 on process 7697
+[Thu Sep 13 10:48:54 2012].414814 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 10:48:54 2012].467076 mapserv request processing time (msLoadMap not incl.): 0.111s
+[Thu Sep 13 10:48:54 2012].356616 CGI Request 1 on process 7695
+[Thu Sep 13 10:48:54 2012].431752 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 10:48:54 2012].493670 mapserv request processing time (msLoadMap not incl.): 0.137s
+[Thu Sep 13 10:49:51 2012].971701 CGI Request 1 on process 7719
+[Thu Sep 13 10:49:52 2012].55841 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 10:49:52 2012].169372 mapserv request processing time (msLoadMap not incl.): 0.198s
+[Thu Sep 13 10:49:52 2012].65343 CGI Request 1 on process 7720
+[Thu Sep 13 10:49:52 2012].162256 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 10:49:52 2012].246580 mapserv request processing time (msLoadMap not incl.): 0.181s
+[Thu Sep 13 10:49:52 2012].74549 CGI Request 1 on process 7721
+[Thu Sep 13 10:49:52 2012].181326 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 10:49:52 2012].260631 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Thu Sep 13 10:49:52 2012].260827 mapserv request processing time (msLoadMap not incl.): 0.186s
+[Thu Sep 13 11:07:26 2012].945607 CGI Request 1 on process 7817
+[Thu Sep 13 11:07:26 2012].998168 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 11:07:27 2012].51441 mapserv request processing time (msLoadMap not incl.): 0.106s
+[Thu Sep 13 11:07:26 2012].991078 CGI Request 1 on process 7819
+[Thu Sep 13 11:07:27 2012].70416 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 11:07:27 2012].123229 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Thu Sep 13 11:07:27 2012].123377 mapserv request processing time (msLoadMap not incl.): 0.132s
+[Thu Sep 13 11:07:26 2012].990861 CGI Request 1 on process 7818
+[Thu Sep 13 11:07:27 2012].71336 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 11:07:27 2012].125269 mapserv request processing time (msLoadMap not incl.): 0.134s
+[Thu Sep 13 11:14:00 2012].305647 CGI Request 1 on process 7855
+[Thu Sep 13 11:14:00 2012].356469 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 11:14:00 2012].407742 mapserv request processing time (msLoadMap not incl.): 0.102s
+[Thu Sep 13 11:14:00 2012].276459 CGI Request 1 on process 7853
+[Thu Sep 13 11:14:00 2012].368055 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 11:14:00 2012].433826 mapserv request processing time (msLoadMap not incl.): 0.157s
+[Thu Sep 13 11:14:00 2012].336307 CGI Request 1 on process 7854
+[Thu Sep 13 11:14:00 2012].419442 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 11:14:00 2012].468927 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Thu Sep 13 11:14:00 2012].469063 mapserv request processing time (msLoadMap not incl.): 0.133s
+[Thu Sep 13 11:14:22 2012].969038 CGI Request 1 on process 7872
+[Thu Sep 13 11:14:23 2012].20749 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 11:14:23 2012].68786 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Thu Sep 13 11:14:23 2012].68936 mapserv request processing time (msLoadMap not incl.): 0.100s
+[Thu Sep 13 11:14:22 2012].996423 CGI Request 1 on process 7870
+[Thu Sep 13 11:14:23 2012].83042 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 11:14:23 2012].136309 mapserv request processing time (msLoadMap not incl.): 0.140s
+[Thu Sep 13 11:14:23 2012].168 CGI Request 1 on process 7871
+[Thu Sep 13 11:14:23 2012].84993 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 11:14:23 2012].136861 mapserv request processing time (msLoadMap not incl.): 0.137s
+[Thu Sep 13 11:14:41 2012].174649 CGI Request 1 on process 7887
+[Thu Sep 13 11:14:41 2012].225083 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 11:14:41 2012].276975 mapserv request processing time (msLoadMap not incl.): 0.102s
+[Thu Sep 13 11:14:41 2012].174768 CGI Request 1 on process 7886
+[Thu Sep 13 11:14:41 2012].225713 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 11:14:41 2012].277995 mapserv request processing time (msLoadMap not incl.): 0.103s
+[Thu Sep 13 11:14:41 2012].428938 CGI Request 1 on process 7894
+[Thu Sep 13 11:14:41 2012].479881 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 11:14:41 2012].528272 mapserv request processing time (msLoadMap not incl.): 0.099s
+[Thu Sep 13 11:15:15 2012].974574 CGI Request 1 on process 7920
+[Thu Sep 13 11:15:16 2012].60766 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 11:15:16 2012].160782 mapserv request processing time (msLoadMap not incl.): 0.186s
+[Thu Sep 13 11:15:16 2012].50039 CGI Request 1 on process 7921
+[Thu Sep 13 11:15:16 2012].108633 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 11:15:16 2012].196160 mapserv request processing time (msLoadMap not incl.): 0.146s
+[Thu Sep 13 11:15:16 2012].57767 CGI Request 1 on process 7922
+[Thu Sep 13 11:15:16 2012].162948 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Thu Sep 13 11:15:16 2012].213639 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Thu Sep 13 11:15:16 2012].213790 mapserv request processing time (msLoadMap not incl.): 0.156s

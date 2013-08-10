@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 28-jul-2013 13:59:44 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.amc.ebg.domain.entities.Users" table="users" catalog="ebg">
+        <id name="id" type="Long">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="role" class="com.amc.ebg.domain.entities.Role" fetch="select">
+            <column name="ROLE_ID" not-null="true" />
+        </many-to-one>
+        <many-to-one name="status" class="com.amc.ebg.domain.entities.Status" fetch="select">
+            <column name="STATUS_ID" not-null="true" />
+        </many-to-one>
+        <property name="userName" type="string">
+            <column name="USER_NAME" length="50" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="PASSWORD" length="50" not-null="true" />
+        </property>
+        <property name="email" type="string">
+            <column name="EMAIL" length="50" />
+        </property>
+    </class>
+</hibernate-mapping>

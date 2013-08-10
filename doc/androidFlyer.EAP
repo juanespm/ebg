@@ -1,0 +1,1 @@
+EAConnectString:EA_androidFlyers --- DBType=1;Connect=Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ea2008;Initial Catalog=EA_androidFlyers;Data Source=MGMT-APP2-VM\EA_SQL_SERVER

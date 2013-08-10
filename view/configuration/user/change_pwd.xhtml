@@ -1,0 +1,48 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:a4j="http://richfaces.org/a4j"
+	template="/layout/template.xhtml">
+	
+	<ui:param name="menuSelected" value="changePwd" />	
+
+	<ui:define name="body">
+		<h:form id="form">
+			
+			<fieldset class="border">
+				<legend class="title">#{messages['filter']}</legend>
+				
+				<h:panelGrid columns="1">
+					<s:decorate template="/layout/edit.xhtml">
+						<ui:define name="label">#{messages['username']}:</ui:define>
+						<h:outputText value="#{credentials.username}" />
+					</s:decorate>
+						
+					<s:decorate id="pwdF" template="/layout/edit.xhtml">
+						<ui:define name="label">#{messages['password']}</ui:define>					
+						<h:inputSecret id="pwd" value="#{changePwdAction.pwd}" required="true">
+							<f:validateLength minimum="5" maximum="25"/>						
+						</h:inputSecret>
+					</s:decorate>
+					
+					<s:decorate id="pwdVF" template="/layout/edit.xhtml">
+						<ui:define name="label">#{messages['passwordConfirm']}</ui:define>					
+						<h:inputSecret value="#{changePwdAction.pwdVerification}" required="true">
+							<s:validateEquality for="pwd"/>						
+						</h:inputSecret>
+					</s:decorate>
+				
+				</h:panelGrid>
+				
+				<div>
+					<h:commandButton value="#{messages['changePassword']}" action="#{changePwdAction.changePwd()}" />
+					<s:button value="#{messages['cancel']}" view="/home.xhtml" />
+				</div>
+			</fieldset>
+		</h:form>		
+	</ui:define>
+</ui:composition>

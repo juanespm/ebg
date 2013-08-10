@@ -1,0 +1,64 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:a4j="http://richfaces.org/a4j"
+	template="/layout/template.xhtml">
+	
+	<ui:param name="menuSelected" value="adminFlyers" />
+		
+	<ui:define name="body">
+				
+		<fieldset class="border">
+			<legend class="title">#{messages['viewFlyer']}</legend>
+			
+			<h:panelGrid columns="3">
+				<h:panelGrid>
+					<s:decorate template="/layout/display.xhtml">
+						<ui:define name="label">#{messages['flyerTitle']}</ui:define>
+						<h:outputText value="#{flyerAction.form.title}" />
+					</s:decorate>
+					
+					<s:decorate template="/layout/display.xhtml">
+						<ui:define name="label">#{messages['category']}</ui:define>
+						<h:outputText value="#{selectItemsProvider.getSingleItem('ch.swissbytes.flyerserver.domain.entities.Category',flyerAction.form.categoryId).label}" />
+					</s:decorate>
+						
+					<s:decorate template="/layout/display.xhtml">
+						<ui:define name="label">#{messages['location']}</ui:define>
+						<h:outputText value="#{selectItemsProvider.getSingleItem('ch.swissbytes.flyerserver.domain.entities.Location',flyerAction.form.locationId).label}" />
+					</s:decorate>
+					
+					<s:decorate template="/layout/display.xhtml">
+						<ui:define name="label">#{messages['publicationDate']}</ui:define>
+						<h:outputText value="#{flyerAction.form.publicationDate}" >
+							<s:convertDateTime pattern="dd/MM/yyyy HH:mm"/>
+						</h:outputText>
+					</s:decorate>
+					
+					<s:decorate template="/layout/display.xhtml">
+						<ui:define name="label">#{messages['expirationDate']}</ui:define>
+						<h:outputText value="#{flyerAction.form.expirationDate}" >
+							<s:convertDateTime pattern="dd/MM/yyyy HH:mm"/>
+			 			</h:outputText>
+					</s:decorate>
+					
+				
+				   	<ui:include src="images_widget.xhtml" >
+				   		<ui:param name="isPreview" value="false" />
+				   		<ui:param name="imageId" value="#{flyerAction.form.imageUrl}" />
+					</ui:include>						
+					
+				</h:panelGrid>
+				<h:form id="flyerForm">		
+				<div style="float: right;">											
+					<s:button value="#{messages['actions.goBack']}" view="/flyer/list.xhtml" propagation="none"/>
+				</div>
+				</h:form>
+			</h:panelGrid>				
+		</fieldset>
+	</ui:define>
+</ui:composition>

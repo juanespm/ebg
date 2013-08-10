@@ -1,0 +1,180 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:a4j="http://richfaces.org/a4j"
+	template="/layout/template.xhtml">
+	
+	<ui:param name="menuSelected" value="adminFlyers" />
+
+	<ui:define name="body">
+		<h:form id="filterForm">
+			<fieldset class="border">
+				<legend class="title">#{messages['flyers']}</legend>
+				
+				<s:decorate template="/layout/display.xhtml">
+					<ui:define name="label">#{messages['createNewFlyer']}</ui:define>
+					<s:button value="#{messages['createNew']}" view="/flyer/edit.xhtml" propagation="none">
+						<f:param name="id" value="-1"/>
+					</s:button>
+				</s:decorate>
+			</fieldset>
+			
+			<fieldset class="border">
+				<legend class="title">#{messages['filter']}</legend>
+				
+				<h:panelGrid columns="3">	
+				<s:decorate template="/layout/display.xhtml">
+					<ui:define name="label">#{messages['flyerTitle']}:</ui:define>
+					<h:inputText value="#{flyerListAction.form.title}" /> 
+				</s:decorate>				
+				
+				<s:decorate template="/layout/display.xhtml">
+					<ui:define name="label">#{messages['flyerStatus']}:</ui:define>
+					<h:selectOneMenu value="#{flyerListAction.form.status}">
+						<f:selectItems value="#{selectItemsProvider.flyerStatuses}"/>
+					</h:selectOneMenu>
+				</s:decorate>
+				
+				<s:decorate template="/layout/display.xhtml">
+					<ui:define name="label">#{messages['category']}:</ui:define>
+					<h:selectOneMenu value="#{flyerListAction.form.categoryId}">
+						<f:selectItems value="#{selectItemsProvider.categories}"/>		
+					</h:selectOneMenu>
+				</s:decorate>
+				
+				<div>
+					<s:decorate template="/layout/display.xhtml">
+						<ui:define name="label">#{messages['dateOf']}:</ui:define>
+						<h:selectOneMenu value="#{flyerListAction.form.period.periodType}">
+							<f:selectItems value="#{selectItemsProvider.flyerPeriodTypes}"/>
+						</h:selectOneMenu>
+					</s:decorate>
+					
+					<h:panelGroup>
+						<h:outputText value="#{messages['since']}: " />
+						<rich:calendar value="#{flyerListAction.form.period.lowerDate}" 
+							datePattern="dd/MM/yyyy HH:mm" popup="true"/>
+						<h:outputText value="#{messages['upTo']}: " />
+						<rich:calendar value="#{flyerListAction.form.period.higherDate}"  
+							datePattern="dd/MM/yyyy HH:mm" popup="true"/>
+					</h:panelGroup>
+				</div>
+				</h:panelGrid>
+				<div>
+					<h:commandButton value="#{messages['search']}" action="#{flyerListAction.search()}" >
+						<f:param name="title" value="#{flyerListAction.form.title}"/>
+						<f:param name="categoryId" value="#{flyerListAction.form.categoryId}"/>
+						<f:param name="lowerTime" value="#{flyerListAction.form.period.lowerDate == null ? '':flyerListAction.form.period.lowerDate.time}"/>
+						<f:param name="higherTime" value="#{flyerListAction.form.period.higherDate == null ? '':flyerListAction.form.period.higherDate.time}"/>
+						<f:param name="periodType" value="#{flyerListAction.form.period.periodType}"/>
+						<f:param name="status" value="#{flyerListAction.form.status}"/>
+					</h:commandButton>
+					<h:commandButton value="#{messages['reset']}" action="#{flyerListAction.reset()}" />
+				</div>
+			</fieldset>
+		</h:form>
+		
+		<h:form id="resultsForm">
+			<fieldset class="border">
+			<legend class="title">#{messages['results']}</legend>
+			<ui:param name="resultsFound" value="#{flyerListAction.paginator.list.size() > 0}" />
+						
+			<s:fragment rendered="#{resultsFound}">				
+				<a4j:outputPanel id="listPanel" ajaxRendered="true">
+					<rich:dataTable id="listTable"
+						value="#{flyerListAction.paginator.list}"
+						var="_item" rowKeyVar="indexRow"
+						width="80%">
+						<rich:column>
+							<f:facet name="header">							
+								<h:outputText value="#{messages['id']}" />
+							</f:facet>
+							<h:outputText value="#{_item.id}" />
+						</rich:column>
+						
+						<rich:column>
+							<f:facet name="header">							
+								<h:outputText value="#{messages['flyer']}" />
+							</f:facet>
+							<h:outputText value="#{_item.title}" />
+						</rich:column>
+						
+						<rich:column>
+							<f:facet name="header">							
+								<h:outputText value="#{messages['category']}" />
+							</f:facet>
+							<h:outputText value="#{_item.category.name}" />
+						</rich:column>
+						
+						<rich:column rendered="false">
+							<f:facet name="header">							
+								<h:outputText value="#{messages['publisher']}" />
+							</f:facet>
+							<h:outputText value="#{_item.users.userName}" />
+						</rich:column>
+						
+						<rich:column>
+							<f:facet name="header">							
+								<h:outputText value="#{messages['publicationDate']}" />
+							</f:facet>
+							<h:outputText value="#{_item.publicationDate}" >
+								<s:convertDateTime pattern="dd/MM/yyyy HH:mm"/>
+							</h:outputText>
+						</rich:column>
+						
+						<rich:column>
+							<f:facet name="header">							
+								<h:outputText value="#{messages['expirationDate']}" />
+							</f:facet>
+							<h:outputText value="#{_item.expirationDate}" >
+								<s:convertDateTime pattern="dd/MM/yyyy HH:mm"/>
+							</h:outputText>
+						</rich:column>
+						
+						<rich:column>
+							<f:facet name="header">							
+								<h:outputText value="#{messages['flyerStatus']}" />
+							</f:facet>
+							<h:outputText value="#{_item.flyerStatus.name}" />
+						</rich:column>
+						
+						<rich:column width="220" style="text-align: center;">
+							<f:facet name="header">							
+								<h:outputText value="[ #{messages['actions']} ]" />								
+							</f:facet>							
+							<s:button value="#{messages['actions.view']}" view="/flyer/view.xhtml">								
+								<f:param name="id" value="#{_item.id}"/>
+							</s:button>							
+							<s:button value="#{messages['actions.modify']}" view="/flyer/edit.xhtml">								
+								<f:param name="id" value="#{_item.id}"/>
+							</s:button>
+							<a4j:commandButton value="#{messages['actions.cancel']}"
+								rendered="#{_item.flyerStatus.name == 'PUBLISHED'}"
+								action="#{flyerListAction.cancel(_item)}"
+								ajaxSingle="true"
+								reRender="listPanel"
+								limitToList="true"
+								onclick="if(confirm('#{messages['confirmation.cancelFlyer']}')){showWaitDialog();} else {return false;}"/>
+						</rich:column>
+						
+					</rich:dataTable>
+					<!-- Pager -->
+					<rich:separator width="0" height="5" />
+					<ui:include src="/layout/paginator.xhtml">
+						<ui:param name="pager" value="#{flyerListAction.paginator}" />
+						<ui:param name="refresh" value="listPanel" />
+						<ui:param name="showPageSize" value="true" />
+					</ui:include>				
+				</a4j:outputPanel>					
+			</s:fragment>
+			<s:fragment rendered="#{not resultsFound}">
+				<h:outputText value="#{messages['noResultsFound']}" styleClass="highlighted"/>
+			</s:fragment>
+			</fieldset>			
+		</h:form>
+	</ui:define>
+</ui:composition>

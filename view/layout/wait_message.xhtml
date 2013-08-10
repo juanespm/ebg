@@ -1,0 +1,21 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:a4j="http://richfaces.org/a4j">
+
+	<script type="text/javascript">	
+	    function showWaitDialog(){
+	    	Richfaces.showModalPanel('waitModal#{id}');
+		}
+
+		function hideWaitDialog(){
+			Richfaces.hideModalPanel('waitModal#{id}');
+		}	
+	</script>
+
+	<rich:modalPanel id="waitModal#{id}" style="text-align:center" height="100" width="150" resizeable="false">		
+		<h:graphicImage value="/img/exporting-progress.gif"/>
+	</rich:modalPanel>
+</ui:composition>

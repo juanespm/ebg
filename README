@@ -1,0 +1,14 @@
+1.- Set the following variables in your USER_HOME/swissbytes-build.properties file:
+jboss.home=/opt/applications/java/jboss-5.1.0.GA/
+
+2.- In eclipse, you need to setup your SWISSBYTES_HOME classpath variable pointing 
+to the SBCOMMON's parent folder.
+
+3.- Import the project into Eclipse
+
+4.- Check-Out sbcommon and maintain this project updated.
+5.- You can use the following targets:
+	* ant clean //clean the project
+	* ant explode //send last changes to your jboss server
+	* ant reexplode //send everything to you jboss server
+	* ant generateEntities //generate the entities

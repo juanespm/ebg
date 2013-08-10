@@ -1,0 +1,13 @@
+Devices
+-------------------------------
+			Minimun		Maximun			Minimun DPIs
+BlackBerry	320 x 240		640 x 480	
+Android		426x320		640 x 480	160
+
+
+Server side images after upload			
+-------------------------------
+default	640 x 480		
+small	420 x 320		
+small2	320 x 240		
+large	640 x 480		

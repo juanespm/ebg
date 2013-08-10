@@ -1,0 +1,407 @@
+[Mon Sep 10 10:09:38 2012].289381 CGI Request 1 on process 10599
+[Mon Sep 10 10:09:38 2012].292897 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].318458 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:09:38 2012].321289 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].325013 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].325083 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:09:38 2012].325209 mapserv request processing time (msLoadMap not incl.): 0.036s
+[Mon Sep 10 10:09:38 2012].327213 CGI Request 1 on process 10600
+[Mon Sep 10 10:09:38 2012].331743 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].358663 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:09:38 2012].361487 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].365317 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].365398 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:09:38 2012].365526 mapserv request processing time (msLoadMap not incl.): 0.038s
+[Mon Sep 10 10:09:38 2012].331660 CGI Request 1 on process 10601
+[Mon Sep 10 10:09:38 2012].335363 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].362255 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:09:38 2012].365859 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].369360 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:09:38 2012].369438 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:09:38 2012].369558 mapserv request processing time (msLoadMap not incl.): 0.038s
+[Mon Sep 10 10:14:32 2012].836682 CGI Request 1 on process 10806
+[Mon Sep 10 10:14:32 2012].840228 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].864751 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:14:32 2012].867728 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].871419 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].871482 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:14:32 2012].871603 mapserv request processing time (msLoadMap not incl.): 0.035s
+[Mon Sep 10 10:14:32 2012].871739 CGI Request 1 on process 10804
+[Mon Sep 10 10:14:32 2012].877660 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].926337 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:14:32 2012].929408 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].933203 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].933292 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:14:32 2012].933447 mapserv request processing time (msLoadMap not incl.): 0.062s
+[Mon Sep 10 10:14:32 2012].872182 CGI Request 1 on process 10805
+[Mon Sep 10 10:14:32 2012].877671 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].927382 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:14:32 2012].931150 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].935241 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:14:32 2012].935316 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:14:32 2012].935463 mapserv request processing time (msLoadMap not incl.): 0.063s
+[Mon Sep 10 10:15:39 2012].877972 CGI Request 1 on process 10884
+[Mon Sep 10 10:15:39 2012].881594 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].906729 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:15:39 2012].909711 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].913679 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].913775 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:15:39 2012].913917 mapserv request processing time (msLoadMap not incl.): 0.036s
+[Mon Sep 10 10:15:39 2012].909863 CGI Request 1 on process 10883
+[Mon Sep 10 10:15:39 2012].917234 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].943156 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:15:39 2012].946428 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].950710 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].950787 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:15:39 2012].950923 mapserv request processing time (msLoadMap not incl.): 0.041s
+[Mon Sep 10 10:15:39 2012].913697 CGI Request 1 on process 10885
+[Mon Sep 10 10:15:39 2012].918891 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].943567 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:15:39 2012].946745 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].952198 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyersdb user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:15:39 2012].952262 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:15:39 2012].952359 mapserv request processing time (msLoadMap not incl.): 0.039s
+[Mon Sep 10 10:16:47 2012].870429 CGI Request 1 on process 10915
+[Mon Sep 10 10:16:47 2012].874047 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].899342 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:16:47 2012].902336 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].906699 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].906782 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:16:47 2012].906934 mapserv request processing time (msLoadMap not incl.): 0.037s
+[Mon Sep 10 10:16:47 2012].902693 CGI Request 1 on process 10914
+[Mon Sep 10 10:16:47 2012].910701 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].935063 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:16:47 2012].938081 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].942101 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].942159 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:16:47 2012].942257 mapserv request processing time (msLoadMap not incl.): 0.040s
+[Mon Sep 10 10:16:47 2012].905723 CGI Request 1 on process 10916
+[Mon Sep 10 10:16:47 2012].911774 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].936633 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:16:47 2012].940250 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].945834 msPostGISLayerOpen(): Query error. Database connection failed (FATAL:  role "postgre" does not exist
+) with connect string 'host=localhost dbname=flyers_db user=postgre password= port=5432'
+Is the database running? Is it allowing connections? Does the specified user exist? Is the password valid? Is the database on the standard port?
+[Mon Sep 10 10:16:47 2012].945898 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:16:47 2012].945980 mapserv request processing time (msLoadMap not incl.): 0.040s
+[Mon Sep 10 10:19:34 2012].482841 CGI Request 1 on process 10937
+[Mon Sep 10 10:19:34 2012].505769 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].530380 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:19:34 2012].553698 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].553767 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].553848 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:19:34 2012].553944 mapserv request processing time (msLoadMap not incl.): 0.071s
+[Mon Sep 10 10:19:34 2012].520297 CGI Request 1 on process 10939
+[Mon Sep 10 10:19:34 2012].562445 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].594052 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:19:34 2012].618426 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].618500 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].618596 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:19:34 2012].618684 mapserv request processing time (msLoadMap not incl.): 0.098s
+[Mon Sep 10 10:19:34 2012].520201 CGI Request 1 on process 10938
+[Mon Sep 10 10:19:34 2012].562445 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].594019 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:19:34 2012].618405 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].618480 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:19:34 2012].618579 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:19:34 2012].618704 mapserv request processing time (msLoadMap not incl.): 0.099s
+[Mon Sep 10 10:22:45 2012].982084 CGI Request 1 on process 10959
+[Mon Sep 10 10:22:46 2012].4919 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].32927 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:22:46 2012].69025 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].69099 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].69166 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:22:46 2012].69251 mapserv request processing time (msLoadMap not incl.): 0.087s
+[Mon Sep 10 10:22:46 2012].24204 CGI Request 1 on process 10961
+[Mon Sep 10 10:22:46 2012].50470 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].75126 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:22:46 2012].98620 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].98689 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].98783 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:22:46 2012].98900 mapserv request processing time (msLoadMap not incl.): 0.075s
+[Mon Sep 10 10:22:46 2012].19445 CGI Request 1 on process 10960
+[Mon Sep 10 10:22:46 2012].55289 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].89583 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:22:46 2012].112439 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].112507 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:22:46 2012].112603 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:22:46 2012].112696 mapserv request processing time (msLoadMap not incl.): 0.093s
+[Mon Sep 10 10:26:03 2012].226839 CGI Request 1 on process 10984
+[Mon Sep 10 10:26:03 2012].249859 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:26:03 2012].274497 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:26:03 2012].297189 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:26:03 2012].297258 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:26:03 2012].297353 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:26:03 2012].297452 mapserv request processing time (msLoadMap not incl.): 0.071s
+[Mon Sep 10 10:26:03 2012].257934 CGI Request 1 on process 10983
+[Mon Sep 10 10:26:03 2012].299709 msPostGISLayerGetItems(): Query error. Error executing SQL: ERROR:  relation "blocks" does not exist
+LINE 1: select * from BLOCKS b where false limit 0
+                      ^
+
+[Mon Sep 10 10:26:03 2012].328209 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:26:03 2012].353021 msPostGISLayerGetItems(): Query error. Error executing SQL: ERROR:  relation "blocks" does not exist
+LINE 1: select * from BLOCKS b where false limit 0
+                      ^
+
+[Mon Sep 10 10:26:03 2012].353111 msPostGISBuildSQL(): General error message. Failed to build SQL 'where'.
+[Mon Sep 10 10:26:03 2012].353141 msPostGISLayerWhichShapes(): Query error. Failed to build query SQL.
+[Mon Sep 10 10:26:03 2012].353229 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:26:03 2012].353338 mapserv request processing time (msLoadMap not incl.): 0.095s
+[Mon Sep 10 10:26:03 2012].263131 CGI Request 1 on process 10985
+[Mon Sep 10 10:26:03 2012].302701 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:26:03 2012].330374 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:26:03 2012].356913 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:26:03 2012].356996 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:26:03 2012].357101 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:26:03 2012].357213 mapserv request processing time (msLoadMap not incl.): 0.094s
+[Mon Sep 10 10:28:59 2012].669396 CGI Request 1 on process 11074
+[Mon Sep 10 10:28:59 2012].692192 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:28:59 2012].717396 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:28:59 2012].739983 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:28:59 2012].740052 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:28:59 2012].740146 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:28:59 2012].740244 mapserv request processing time (msLoadMap not incl.): 0.071s
+[Mon Sep 10 10:28:59 2012].702574 CGI Request 1 on process 11073
+[Mon Sep 10 10:28:59 2012].745099 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom,b.id,b.zone_num,b.block_num'
+[Mon Sep 10 10:28:59 2012].774492 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:28:59 2012].815840 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom,b.id,b.zone_num,b.block_num'
+[Mon Sep 10 10:28:59 2012].815919 msPostGISBuildSQL(): General error message. Failed to build SQL 'where'.
+[Mon Sep 10 10:28:59 2012].815939 msPostGISLayerWhichShapes(): Query error. Failed to build query SQL.
+[Mon Sep 10 10:28:59 2012].816045 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:28:59 2012].816130 mapserv request processing time (msLoadMap not incl.): 0.114s
+[Mon Sep 10 10:28:59 2012].708020 CGI Request 1 on process 11075
+[Mon Sep 10 10:28:59 2012].748981 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:28:59 2012].777597 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:28:59 2012].816754 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:28:59 2012].816853 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:28:59 2012].816926 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:28:59 2012].817021 mapserv request processing time (msLoadMap not incl.): 0.109s
+[Mon Sep 10 10:29:52 2012].804335 CGI Request 1 on process 11087
+[Mon Sep 10 10:29:52 2012].827247 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:29:52 2012].852728 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:29:52 2012].875419 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:29:52 2012].875492 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:29:52 2012].875575 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:29:52 2012].875715 mapserv request processing time (msLoadMap not incl.): 0.071s
+[Mon Sep 10 10:29:52 2012].836711 CGI Request 1 on process 11086
+[Mon Sep 10 10:29:52 2012].878967 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom as the_geom,b.id,b.zone_num,b.block_num'
+[Mon Sep 10 10:29:52 2012].923959 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:29:52 2012].950328 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom as the_geom,b.id,b.zone_num,b.block_num'
+[Mon Sep 10 10:29:52 2012].950405 msPostGISBuildSQL(): General error message. Failed to build SQL 'where'.
+[Mon Sep 10 10:29:52 2012].950421 msPostGISLayerWhichShapes(): Query error. Failed to build query SQL.
+[Mon Sep 10 10:29:52 2012].950500 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:29:52 2012].950598 mapserv request processing time (msLoadMap not incl.): 0.114s
+[Mon Sep 10 10:29:52 2012].844186 CGI Request 1 on process 11088
+[Mon Sep 10 10:29:52 2012].884634 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:29:52 2012].929161 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:29:52 2012].951749 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:29:52 2012].951839 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:29:52 2012].951994 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:29:52 2012].952123 mapserv request processing time (msLoadMap not incl.): 0.108s
+[Mon Sep 10 10:31:26 2012].737662 CGI Request 1 on process 11122
+[Mon Sep 10 10:31:26 2012].781633 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:31:26 2012].832728 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:31:26 2012].857259 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:31:26 2012].857332 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:31:26 2012].857428 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:31:26 2012].857530 mapserv request processing time (msLoadMap not incl.): 0.120s
+[Mon Sep 10 10:31:26 2012].736673 CGI Request 1 on process 11120
+[Mon Sep 10 10:31:26 2012].780848 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom as the_geom,b.id,b.zone_num,b.block_num'
+[Mon Sep 10 10:31:26 2012].821695 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:31:26 2012].867204 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom as the_geom,b.id,b.zone_num,b.block_num'
+[Mon Sep 10 10:31:26 2012].867303 msPostGISBuildSQL(): General error message. Failed to build SQL 'where'.
+[Mon Sep 10 10:31:26 2012].867326 msPostGISLayerWhichShapes(): Query error. Failed to build query SQL.
+[Mon Sep 10 10:31:26 2012].867400 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:31:26 2012].867507 mapserv request processing time (msLoadMap not incl.): 0.131s
+[Mon Sep 10 10:31:26 2012].737562 CGI Request 1 on process 11121
+[Mon Sep 10 10:31:26 2012].781631 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:31:26 2012].832249 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:31:26 2012].873933 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:31:26 2012].874002 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:31:26 2012].874085 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:31:26 2012].874186 mapserv request processing time (msLoadMap not incl.): 0.137s
+[Mon Sep 10 10:32:49 2012].544163 CGI Request 1 on process 11136
+[Mon Sep 10 10:32:49 2012].567001 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:32:49 2012].592294 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:32:49 2012].614964 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:32:49 2012].615034 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:32:49 2012].615128 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:32:49 2012].615244 mapserv request processing time (msLoadMap not incl.): 0.071s
+[Mon Sep 10 10:32:49 2012].579834 CGI Request 1 on process 11137
+[Mon Sep 10 10:32:49 2012].620868 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:32:49 2012].649775 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:32:49 2012].674834 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:32:49 2012].674908 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:32:49 2012].674990 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:32:49 2012].675089 mapserv request processing time (msLoadMap not incl.): 0.095s
+[Mon Sep 10 10:32:49 2012].575912 CGI Request 1 on process 11135
+[Mon Sep 10 10:32:49 2012].618626 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom as the_geom,b.id,b.zone_number,b.block_number'
+[Mon Sep 10 10:32:49 2012].648412 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:32:49 2012].675136 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom as the_geom,b.id,b.zone_number,b.block_number'
+[Mon Sep 10 10:32:49 2012].675223 msPostGISBuildSQL(): General error message. Failed to build SQL 'where'.
+[Mon Sep 10 10:32:49 2012].675239 msPostGISLayerWhichShapes(): Query error. Failed to build query SQL.
+[Mon Sep 10 10:32:49 2012].675321 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:32:49 2012].675422 mapserv request processing time (msLoadMap not incl.): 0.100s
+[Mon Sep 10 10:41:37 2012].901551 CGI Request 1 on process 11246
+[Mon Sep 10 10:41:37 2012].924438 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:41:37 2012].950749 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:41:37 2012].973338 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:41:37 2012].973405 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:41:37 2012].973501 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:41:37 2012].973608 mapserv request processing time (msLoadMap not incl.): 0.072s
+[Mon Sep 10 10:41:37 2012].927138 CGI Request 1 on process 11245
+[Mon Sep 10 10:41:37 2012].969913 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom as the_geom,b.id,b.zone_number,b.block_number'
+[Mon Sep 10 10:41:37 2012].999386 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:41:38 2012].24672 msPostGISLayerGetItems(): Query error. Tried to find the geometry column in the database, but couldn't find it.  Is it mis-capitalized? 'SELECT b.location_geom as the_geom,b.id,b.zone_number,b.block_number'
+[Mon Sep 10 10:41:38 2012].25231 msPostGISLayerWhichShapes(): Query error. Error executing query: ERROR:  syntax error at or near "SELECT"
+LINE 1: ...),'NDR'),'hex') as geom,"b.id" from block b where SELECT b.l...
+                                                             ^
+ 
+[Mon Sep 10 10:41:38 2012].25317 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:41:38 2012].25409 mapserv request processing time (msLoadMap not incl.): 0.098s
+[Mon Sep 10 10:41:37 2012].932340 CGI Request 1 on process 11247
+[Mon Sep 10 10:41:37 2012].972518 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:41:38 2012].2569 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:41:38 2012].27836 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:41:38 2012].27906 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:41:38 2012].27989 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:41:38 2012].28102 mapserv request processing time (msLoadMap not incl.): 0.096s
+[Mon Sep 10 10:44:04 2012].411236 CGI Request 1 on process 11266
+[Mon Sep 10 10:44:04 2012].460437 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:44:04 2012].507069 msPostGISLayerWhichShapes(): Query error. Error executing query: ERROR:  column "b.id" does not exist
+LINE 1: ...ary(ST_Force_2D("the_geom"),'NDR'),'hex') as geom,"b.id" fro...
+                                                             ^
+ 
+[Mon Sep 10 10:44:04 2012].507170 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:44:04 2012].507271 mapserv request processing time (msLoadMap not incl.): 0.096s
+[Mon Sep 10 10:44:04 2012].453043 CGI Request 1 on process 11267
+[Mon Sep 10 10:44:04 2012].497158 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:44:04 2012].528998 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:44:04 2012].552811 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:44:04 2012].552879 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:44:04 2012].552962 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:44:04 2012].553108 mapserv request processing time (msLoadMap not incl.): 0.100s
+[Mon Sep 10 10:44:04 2012].453147 CGI Request 1 on process 11268
+[Mon Sep 10 10:44:04 2012].497153 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:44:04 2012].531424 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:44:04 2012].554257 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:44:04 2012].554338 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:44:04 2012].554433 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:44:04 2012].554543 mapserv request processing time (msLoadMap not incl.): 0.101s
+[Mon Sep 10 10:45:34 2012].789413 CGI Request 1 on process 11409
+[Mon Sep 10 10:45:34 2012].812215 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:45:34 2012].850946 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:45:34 2012].886224 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:45:34 2012].886313 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:45:34 2012].886377 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:45:34 2012].886463 mapserv request processing time (msLoadMap not incl.): 0.097s
+[Mon Sep 10 10:45:34 2012].826481 CGI Request 1 on process 11410
+[Mon Sep 10 10:45:34 2012].849070 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:45:34 2012].873980 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:45:34 2012].896742 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:45:34 2012].896813 msPostGISParseData(): Query error. Error parsing PostGIS DATA variable.  You must specifiy 'using unique' when supplying a subselect in the data definition.
+[Mon Sep 10 10:45:34 2012].896916 msWFSGetFeature(): WFS server error. ms_error->code not found
+[Mon Sep 10 10:45:34 2012].897038 mapserv request processing time (msLoadMap not incl.): 0.071s
+[Mon Sep 10 10:45:34 2012].820196 CGI Request 1 on process 11408
+[Mon Sep 10 10:45:34 2012].896795 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:45:34 2012].947849 mapserv request processing time (msLoadMap not incl.): 0.128s
+[Mon Sep 10 10:47:44 2012].713274 CGI Request 1 on process 11427
+[Mon Sep 10 10:47:44 2012].766397 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:47:44 2012].817094 mapserv request processing time (msLoadMap not incl.): 0.104s
+[Mon Sep 10 10:47:44 2012].744743 CGI Request 1 on process 11426
+[Mon Sep 10 10:47:44 2012].828906 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:47:44 2012].885430 mapserv request processing time (msLoadMap not incl.): 0.141s
+[Mon Sep 10 10:47:44 2012].750806 CGI Request 1 on process 11428
+[Mon Sep 10 10:47:44 2012].832597 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:47:44 2012].885448 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Mon Sep 10 10:47:44 2012].885604 mapserv request processing time (msLoadMap not incl.): 0.135s
+[Mon Sep 10 10:48:46 2012].277716 CGI Request 1 on process 11446
+[Mon Sep 10 10:48:46 2012].365797 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:48:46 2012].454037 mapserv request processing time (msLoadMap not incl.): 0.176s
+[Mon Sep 10 10:48:46 2012].296463 CGI Request 1 on process 11447
+[Mon Sep 10 10:48:46 2012].383906 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:48:46 2012].469648 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Mon Sep 10 10:48:46 2012].469814 mapserv request processing time (msLoadMap not incl.): 0.173s
+[Mon Sep 10 10:48:46 2012].287253 CGI Request 1 on process 11445
+[Mon Sep 10 10:48:46 2012].376641 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:48:46 2012].473570 mapserv request processing time (msLoadMap not incl.): 0.186s
+[Mon Sep 10 10:58:44 2012].405409 CGI Request 1 on process 11500
+[Mon Sep 10 10:58:44 2012].467890 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:58:44 2012].549353 mapserv request processing time (msLoadMap not incl.): 0.144s
+[Mon Sep 10 10:58:44 2012].436269 CGI Request 1 on process 11499
+[Mon Sep 10 10:58:44 2012].510819 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:58:44 2012].562686 mapserv request processing time (msLoadMap not incl.): 0.126s
+[Mon Sep 10 10:58:44 2012].442193 CGI Request 1 on process 11501
+[Mon Sep 10 10:58:44 2012].494050 msProjectRect(): some points failed to reproject, doing internal sampling.
+[Mon Sep 10 10:58:44 2012].566871 msQueryByRect(): Search returned no results. No matching record(s) found.
+[Mon Sep 10 10:58:44 2012].567008 mapserv request processing time (msLoadMap not incl.): 0.125s

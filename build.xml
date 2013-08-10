@@ -1,0 +1,975 @@
+<?xml version="1.0"?>
+<project name="ebg" basedir="." default="deploy">
+
+	<!-- Give user a chance to override without editing this file or typing 
+		-D -->
+
+	<property file="${basedir}/build.properties" />
+
+	<!-- Location of the common build file -->
+
+	<property name="common.location" location="../sbcommon/src/build/common.xml" />
+
+	<property name="profile" value="dev" />
+
+	<property file="build-${profile}.properties" />
+
+	<property file="${user.home}/swissbytes-build.properties" />
+
+	<!-- set global properties for this build -->
+
+	<property name="project.name" value="ebg" />
+
+	<property name="project.war" value="true" />
+
+	<property name="richfaces.present" value="true" />
+
+	<property name="dist.dir" value="dist" />
+
+	<property name="src.model.dir" value="src/main" />
+
+	<property name="src.action.dir" value="src/hot" />
+
+	<property name="src.test.dir" value="src/test" />
+
+	<property name="lib.dir" value="lib" />
+
+	<property name="endorsed.dir" value="${lib.dir}/endorsed" />
+
+	<property name="war.dir" value="exploded-archives/${project.name}.war" />
+
+	<property name="exploded.archive.dir" value="${war.dir}" />
+
+	<property name="classes.model.dir" value="${war.dir}/WEB-INF/classes" />
+
+	<property name="action.dir" value="WEB-INF/classes" />
+
+	<property name="classes.action.dir" value="${war.dir}/${action.dir}" />
+
+	<property name="test.dir" value="test-build" />
+
+	<property name="bootstrap.dir" value="${basedir}/bootstrap" />
+
+	<property name="jboss.domain" value="default" />
+
+	<property name="deploy.dir" value="${jboss.home}/server/${jboss.domain}/deploy" />
+
+	<property name="deploy.lib.dir" value="${jboss.home}/server/${jboss.domain}/lib" />
+
+	<property name="war.deploy.dir" value="${deploy.dir}/${project.name}.war" />
+
+	<property name="packaged.archive" value="${dist.dir}/${project.name}.war" />
+
+	<property name="testng.jar" value="${basedir}/lib/testng-jdk15.jar" />
+
+	<property name="javac.debug" value="true" />
+
+	<property name="javac.deprecation" value="false" />
+
+	<property name="debug" value="false" />
+
+	<property name="jboss.conf.dir" value="${jboss.home}/server/${jboss.domain}/conf" />
+
+	<property name="jboss.data.dir" value="${jboss.home}/server/${jboss.domain}/data" />
+
+	<!-- Properties for validating configuration files -->
+
+	<property name="validate.resources.dir" value="${basedir}/exploded-archives" />
+
+	<property name="schema.dir" value="${basedir}/exploded-archives/schemas" />
+
+	<property name="src.schema.dir" value="${schema.dir}/org/jboss/seam" />
+
+	<property name="schema.version" value="2.2" />
+
+	<!-- Used libraries and their version -->
+
+	<property name="seam.version" value="2.2.2.Final" />
+
+	<property name="jasperreports.version" value="3.7.6" />
+
+	<!-- Import common base build file -->
+
+	<import file="${common.location}" />
+
+	<fileset id="project.lib" dir="${lib.dir}">
+
+		<include name="*.jar" />
+	</fileset>
+
+	<!-- Integration with Metric Tools -->
+
+	<property name="src.path" location="${project.src}" />
+
+	<property name="sonar.sources" value="${src.model.dir},${src.action.dir}" />
+
+	<property name="project.test-src" value="${src.test.dir}" />
+
+	<path id="src.path">
+
+		<pathelement location="${project.gen-src}" />
+
+		<pathelement location="${project.src}/hot" />
+
+		<pathelement location="${project.src}/main" />
+
+		<pathelement location="${project.src}/test" />
+	</path>
+
+	<path id="lib">
+
+		<pathelement location="${lib.dir}" />
+
+		<path refid="seam.classpath" />
+
+		<path refid="junit.classpath" />
+	</path>
+
+	<path id="build.classpath">
+
+		<path refid="lib" />
+
+		<path refid="src.path" />
+
+		<path refid="imported.lib" />
+
+		<fileset refid="project.lib" />
+
+		<path refid="swissbytes-test.classpath" />
+	</path>
+
+	<path id="imported.lib">
+
+		<path refid="apache-commons-lang.classpath" />
+
+		<path refid="apache-commons-mail.classpath" />
+
+		<path refid="apache-commons-io.classpath" />
+
+		<path refid="paginator.classpath" />
+
+		<path refid="swissbytes-persistence.classpath" />
+
+		<path refid="swissbytes-io.classpath" />
+
+		<path refid="swissbytes-factory.classpath" />
+
+		<path refid="gson.classpath" />
+
+		<path refid="hibernate-spatial-postgresql.classpath" />
+	</path>
+
+	<!-- Libraries needed by the server that can't be put within the WAR file -->
+
+	<path id="server.lib">
+
+		<fileset refid="postgres-jdbc.files" />
+
+		<fileset refid="h2.files" />
+	</path>
+
+	<path id="run.classpath">
+
+		<path refid="build.classpath" />
+	</path>
+
+	<path id="test.path">
+
+		<path path="${test.dir}" />
+
+		<fileset dir="${lib.dir}/test">
+
+			<include name="*.jar" />
+		</fileset>
+
+		<path path="${bootstrap.dir}" />
+
+		<path refid="build.classpath" />
+
+		<path refid="server.lib" />
+
+		<path refid="hibernate.classpath" />
+	</path>
+
+	<target name="init" description="Initialize the build">
+
+		<taskdef name="groovyc" classname="org.codehaus.groovy.ant.Groovyc"
+			classpathref="build.classpath" />
+		<!-- really only the groovy jar is necessary -->
+
+		<mkdir dir="${classes.model.dir}" />
+
+		<mkdir dir="${classes.action.dir}" />
+
+		<mkdir dir="${dist.dir}" />
+
+		<mkdir dir="${project.gen-src}" />
+
+		<condition property="is.debug" value="true">
+
+			<istrue value="${debug}" />
+		</condition>
+
+		<property name="transactionManagerLookupClass"
+			value="org.hibernate.transaction.JBossTransactionManagerLookup" />
+
+		<property name="ejbJndiPattern" value="${project.name}/#{ejbName}/local" />
+
+		<condition else="true" property="seamBootstrapsPu" value="false">
+
+			<available file="${jboss.home}/lib/jboss-vfs.jar" />
+			<!-- JBoss AS >= 5.0 -->
+		</condition>
+
+		<condition else="#{null}" property="seamEmfRef" value="#{entityManagerFactory}">
+
+			<istrue value="${seamBootstrapsPu}" />
+		</condition>
+
+		<condition else="java:comp/env/${project.name}/pu" property="puJndiName"
+			value="#{null}">
+
+			<istrue value="${seamBootstrapsPu}" />
+		</condition>
+
+		<filterset id="persistence">
+
+			<filter token="transactionManagerLookupClass" value="${transactionManagerLookupClass}" />
+		</filterset>
+
+		<filterset id="seam">
+
+			<filter token="ejbJndiPattern" value="${ejbJndiPattern}" />
+
+			<filter token="seamBootstrapsPu" value="${seamBootstrapsPu}" />
+
+			<filter token="seamEmfRef" value="${seamEmfRef}" />
+
+			<filter token="puJndiName" value="${puJndiName}" />
+		</filterset>
+
+		<filterset id="profile">
+
+			<filter token="debug" value="${debug}" />
+		</filterset>
+
+		<!-- if a .groovy file is in model or action, set groovy.present -->
+
+		<available file="" property="groovy.present" searchparents="true"
+			value="true">
+
+			<filepath>
+
+				<fileset dir="${src.action.dir}">
+
+					<include name="**/*.groovy" />
+				</fileset>
+
+				<fileset dir="${src.model.dir}">
+
+					<include name="**/*.groovy" />
+				</fileset>
+			</filepath>
+		</available>
+
+		<condition property="groovy.test.present" value="true">
+
+			<or>
+
+				<isset property="groovy.present" />
+
+				<available file="" searchparents="true">
+
+					<filepath>
+
+						<fileset dir="${src.test.dir}">
+
+							<include name="**/*.groovy" />
+						</fileset>
+					</filepath>
+				</available>
+			</or>
+		</condition>
+
+		<condition property="groovy.dynamic" value="true">
+
+			<and>
+
+				<isset property="groovy.present" />
+
+				<isset property="is.debug" />
+			</and>
+		</condition>
+
+		<condition property="groovy.static" value="true">
+
+			<and>
+
+				<isset property="groovy.present" />
+
+				<not>
+
+					<isset property="is.debug" />
+				</not>
+			</and>
+		</condition>
+
+		<!-- conditional defining if generatesWS Transcoder sources or not -->
+
+		<condition property="generate-from-schemas">
+
+			<not>
+
+				<available file="${project.gen-src}/com/amc/" property="generate-from-schemas"
+					type="dir" value="true" />
+			</not>
+		</condition>
+
+		<ant target="consumeWsdl" />
+	</target>
+
+	<target name="compilemodel" depends="init,groovy.compilemodel"
+		description="Compile the Java source code" unless="eclipse.running">
+
+		<!-- compile generated sources -->
+
+		<javac classpathref="build.classpath" debug="${javac.debug}"
+			deprecation="${javac.deprecation}" destdir="${classes.model.dir}"
+			nowarn="on">
+
+			<src path="${project.gen-src}" />
+		</javac>
+
+		<javac classpathref="build.classpath" debug="${javac.debug}"
+			deprecation="${javac.deprecation}" destdir="${classes.model.dir}"
+			nowarn="on">
+
+			<src path="${src.model.dir}" />
+		</javac>
+	</target>
+
+	<target name="groovy.compilemodel" if="groovy.present">
+
+		<!-- model is always compiled -->
+
+		<groovyc classpathref="build.classpath" destdir="${classes.model.dir}"
+			srcdir="${src.model.dir}">
+		</groovyc>
+	</target>
+
+	<target name="compileactions" depends="init,groovy.compileactions,groovy.copyactions"
+		description="Compile the Java source code" unless="eclipse.running">
+
+		<javac classpathref="build.classpath" debug="${javac.debug}"
+			deprecation="${javac.deprecation}" destdir="${classes.action.dir}"
+			nowarn="on">
+
+			<classpath path="${classes.model.dir}" />
+
+			<src path="${src.action.dir}" />
+		</javac>
+	</target>
+
+	<target name="groovy.compileactions" if="groovy.static">
+
+		<path id="groovy.action.classpath">
+
+			<path refid="build.classpath" />
+
+			<dirset dir="${classes.model.dir}" />
+		</path>
+
+		<groovyc classpathref="groovy.action.classpath" destdir="${classes.action.dir}"
+			srcdir="${src.action.dir}">
+		</groovyc>
+	</target>
+
+	<target name="groovy.copyactions" if="groovy.dynamic">
+
+		<!-- copy the action groovy files into action if not compiled -->
+
+		<copy todir="${classes.action.dir}">
+
+			<fileset dir="${src.action.dir}">
+
+				<include name="**/*.groovy" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="copyclasses" depends="init,groovy.copyactions"
+		description="Copy the classes that were compiled by eclipse" if="eclipse.running">
+
+		<!-- TODO check how the groovy eclipse plugin works, does it compile? -->
+
+		<copy todir="${classes.model.dir}">
+
+			<fileset dir="classes/main">
+
+				<include name="**/*.class" />
+
+				<exclude name="**/*.pages.xml.spdia" />
+			</fileset>
+		</copy>
+
+		<copy todir="${classes.action.dir}">
+
+			<fileset dir="classes/hot">
+
+				<include name="**/*.class" />
+
+				<exclude name="**/*.pages.xml.spdia" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="compile" depends="compilemodel,compileactions,copyclasses"
+		description="Compile the various source paths" />
+
+	<target name="war" depends="compile"
+		description="Build the WAR structure in a staging directory">
+
+		<copy todir="${war.dir}">
+
+			<fileset dir="${basedir}/view" />
+		</copy>
+
+		<copy file="${basedir}/resources/components-${profile}.properties"
+			tofile="${war.dir}/WEB-INF/classes/components.properties">
+
+			<filterset refid="seam" />
+
+			<filterset refid="profile" />
+		</copy>
+
+		<copy file="${basedir}/resources/application.properties" todir="${war.dir}/WEB-INF/classes" />
+
+		<copy todir="${war.dir}/WEB-INF/classes/templates">
+
+			<fileset dir="${basedir}/resources/templates" includes="*.html" />
+		</copy>
+
+		<copy file="${basedir}/resources/META-INF/persistence-${profile}.xml"
+			tofile="${war.dir}/WEB-INF/classes/META-INF/persistence.xml">
+
+			<filterset refid="persistence" />
+		</copy>
+
+		<copy file="${basedir}/resources/import-${profile}.sql" tofile="${war.dir}/WEB-INF/classes/import.sql" />
+
+		<copy todir="${war.dir}/WEB-INF">
+
+			<fileset dir="${basedir}/resources/WEB-INF">
+
+				<include name="*.*" />
+
+				<include name="lib/*.*" />
+
+				<exclude name="web.xml" />
+			</fileset>
+		</copy>
+
+		<copy flatten="true" todir="${war.dir}/WEB-INF/lib">
+
+			<fileset dir="${seam.home}/lib">
+
+				<includesfile name="deployed-jars.list" />
+
+				<exclude name="jboss-seam-gen.jar" />
+
+				<exclude name="jboss-seam-debug.jar" unless="is.debug" />
+
+				<exclude name="icefaces-ahs.jar" if="icefaces.present" />
+
+				<include name="groovy-*.jar" if="groovy.present" />
+			</fileset>
+
+			<fileset dir="lib" includes="*.jar" />
+
+			<path>
+
+				<path refid="imported.lib" />
+			</path>
+		</copy>
+
+		<copy todir="${war.dir}/WEB-INF/classes">
+
+			<fileset dir="${src.model.dir}">
+
+				<include name="**/*.component.xml" />
+			</fileset>
+
+			<fileset dir="${basedir}/resources">
+
+				<include name="messages*.properties" />
+
+				<include name="*_theme.properties" />
+
+				<include name="seam.properties" />
+
+				<include name="*.drl" />
+
+				<include name="META-INF/*.drl" />
+
+				<include name="*jpdl.xml" />
+
+				<include name="*hibernate.cfg.xml" />
+
+				<include name="jbpm.cfg.xml" />
+
+				<include name="META-INF/orm.xml" />
+
+				<include name="*.skin.properties" if="richfaces.present" />
+
+				<include name="**/*.xcss" if="richfaces.present" />
+			</fileset>
+			<!-- move XCSS into classpath for now loading from web context only works 
+				in JBoss AS 4 -->
+
+			<fileset dir="${basedir}/view">
+
+				<include name="**/*.xcss" if="richfaces.present" />
+			</fileset>
+		</copy>
+
+		<copy file="${basedir}/resources/WEB-INF/web.xml" todir="${war.dir}/WEB-INF">
+
+			<filterset refid="profile" />
+		</copy>
+	</target>
+
+	<target name="clear-profile-artifacts" depends="init"
+		description="Clear compiled cache of profile-specific artifacts in anticipation of a profile change">
+
+		<delete file="${war.dir}/WEB-INF/classes/META-INF/persistence.xml" />
+
+		<delete file="${war.dir}/WEB-INF/classes/import.sql" />
+
+		<delete file="${war.dir}/WEB-INF/classes/components.properties" />
+
+		<delete file="${war.dir}/WEB-INF/classes/application.properties" />
+	</target>
+
+	<target name="stage" depends="war" />
+
+	<target name="archive" depends="clear-profile-artifacts,stage"
+		description="Package the WAR archive">
+
+		<jar basedir="${war.dir}" jarfile="${dist.dir}/${project.name}.war" />
+	</target>
+
+	<target name="datasource">
+
+		<fail unless="jboss.home">
+			jboss.home not set
+		</fail>
+
+		<copy file="${basedir}/resources/${project.name}-${profile}-ds.xml"
+			tofile="${deploy.dir}/${project.name}-ds.xml" />
+	</target>
+
+	<target name="explode" depends="stage,datasource" description="Deploy the exploded archive">
+
+		<fail unless="jboss.home">
+			jboss.home not set
+		</fail>
+
+		<mkdir dir="${war.deploy.dir}" />
+
+		<copy todir="${war.deploy.dir}">
+
+			<fileset dir="${war.dir}" excludes="*dia*" />
+		</copy>
+
+		<copy todir="${jboss.conf.dir}">
+
+			<fileset dir="${basedir}/setup">
+
+				<include name="${project.name}.properties" />
+			</fileset>
+		</copy>
+
+		<copy todir="${deploy.lib.dir}">
+
+			<path>
+
+				<path refid="server.lib" />
+			</path>
+		</copy>
+		<!-- Flyer images -->
+
+		<mkdir dir="${jboss.data.dir}/flyer-imgs" />
+
+		<copy file="${basedir}/src/test/resources/img/image_orig.jpg"
+			tofile="${jboss.data.dir}/flyer-imgs/1/1/1/default.jpg" />
+
+		<copy file="${basedir}/src/test/resources/img/image_orig.jpg"
+			tofile="${jboss.data.dir}/flyer-imgs/1/1/1/large.jpg" />
+
+		<copy file="${basedir}/src/test/resources/img/image_small.jpg"
+			tofile="${jboss.data.dir}/flyer-imgs/1/1/1/small.jpg" />
+	</target>
+
+	<target name="unexplode" description="Undeploy the exploded archive">
+
+		<delete failonerror="no">
+
+			<fileset dir="${war.deploy.dir}">
+
+				<exclude name="**/*.jar" />
+			</fileset>
+		</delete>
+
+		<delete failonerror="no" file="${deploy.dir}/${project.name}-ds.xml" />
+
+		<delete dir="${war.deploy.dir}" failonerror="no" />
+	</target>
+
+	<target name="reexplode" depends="unexplode,clean,explode"
+		description="Undeploy the exploded archive, clean, then deploy the exploded archive" />
+
+	<target name="check-deployed"
+		description="Check to see if packaged archive is currently deployed">
+
+		<fail unless="jboss.home">
+			jboss.home not set
+		</fail>
+
+		<condition property="archive.deployed" value="true">
+
+			<available file="${war.deploy.dir}" type="file" />
+		</condition>
+	</target>
+
+	<target name="restart-exploded"
+		description="Deploy exploded archive if not deployed as packaged archive"
+		unless="archive.deployed">
+
+		<antcall target="explode" />
+
+		<touch file="${war.deploy.dir}/WEB-INF/web.xml" />
+	</target>
+
+	<target name="restart-deployed"
+		description="Deploy packaged archive if deployed as packaged archive"
+		if="archive.deployed">
+
+		<antcall target="deploy" />
+	</target>
+
+	<target name="restart"
+		depends="check-deployed,clear-profile-artifacts,restart-exploded,restart-deployed"
+		description="Restart the exploded archive" />
+
+	<target name="deploy" depends="archive,datasource" description="Deploy the packaged archive">
+
+		<fail unless="jboss.home">
+			jboss.home not set
+		</fail>
+
+		<copy file="${dist.dir}/${project.name}.war" todir="${deploy.dir}" />
+	</target>
+
+	<target name="undeploy" description="Undeploy the packaged archive">
+
+		<delete file="${deploy.dir}/${project.name}.war" />
+
+		<delete file="${deploy.dir}/${project.name}-ds.xml" />
+	</target>
+
+	<target name="redeploy" depends="undeploy,clean,deploy"
+		description="Undeploy the packaged archive, clean, then deploy the packaged archive" />
+
+	<target name="clear-temp-db">
+
+		<delete verbose="true">
+
+			<fileset dir="${user.home}/tmp" includes="${ant.project.name}*" />
+		</delete>
+	</target>
+
+	<target name="clean" depends="clear-temp-db" description="Clean out the staging directory">
+
+		<delete dir="${dist.dir}" />
+
+		<delete dir="${basedir}/exploded-archives" />
+
+		<delete dir="${basedir}/test-report" />
+
+		<delete dir="${basedir}/test-output" />
+
+		<delete failonerror="no" includeemptydirs="true">
+
+			<fileset dir="${test.dir}">
+
+				<exclude name="**/*.class" if="eclipse.running" />
+			</fileset>
+		</delete>
+	</target>
+
+	<target name="clean-wsdl" description="Clean out the WSDL staging directory">
+
+		<delete dir="${project.gen-src}" />
+	</target>
+
+	<target name="compiletest" depends="groovy.compiletest"
+		description="Compile the Java source code for the tests" unless="eclipse.running">
+
+		<mkdir dir="${test.dir}" />
+
+		<javac classpathref="build.classpath" debug="${javac.debug}"
+			deprecation="${javac.deprecation}" destdir="${test.dir}" nowarn="on">
+
+			<src path="${src.action.dir}" />
+
+			<src path="${src.model.dir}" />
+
+			<src path="${src.test.dir}" />
+
+			<src path="${project.gen-src}" />
+		</javac>
+	</target>
+
+	<target name="groovy.compiletest" description="Compile the Groovy source code for the tests"
+		if="groovy.test.present">
+
+		<mkdir dir="${test.dir}" />
+
+		<groovyc classpathref="build.classpath" destdir="${test.dir}">
+
+			<src path="${src.action.dir}" />
+
+			<src path="${src.model.dir}" />
+
+			<src path="${src.test.dir}" />
+		</groovyc>
+	</target>
+
+	<target name="copytestclasses" description="Copy classes compiled by eclipse to the test dir"
+		if="eclipse.running">
+
+		<mkdir dir="${test.dir}" />
+
+		<copy todir="${test.dir}">
+
+			<fileset dir="classes/main">
+
+				<include name="**/*.class" />
+			</fileset>
+		</copy>
+
+		<copy todir="${test.dir}">
+
+			<fileset dir="classes/hot">
+
+				<include name="**/*.class" />
+			</fileset>
+		</copy>
+
+		<copy todir="${test.dir}">
+
+			<fileset dir="classes/test">
+
+				<include name="**/*.class" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="buildtest" depends="init,compiletest,copytestclasses"
+		description="Build the tests">
+
+		<copy todir="${test.dir}">
+
+			<fileset dir="${basedir}/resources">
+
+				<exclude name="META-INF/persistence*.xml" />
+
+				<exclude name="import*.sql" />
+
+				<exclude name="${project.name}-*-ds.xml" />
+
+				<exclude name="components-*.properties" />
+			</fileset>
+
+			<fileset dir="${basedir}/view" />
+		</copy>
+
+		<copy file="${basedir}/resources/META-INF/persistence-test.xml"
+			tofile="${test.dir}/META-INF/persistence.xml" />
+
+		<copy file="${basedir}/src/test/import.sql" tofile="${test.dir}/import.sql" />
+
+		<copy file="${basedir}/src/test/components.properties" tofile="${test.dir}/components.properties" />
+
+		<copy flatten="true" todir="${test.dir}">
+
+			<fileset dir="${src.test.dir}">
+
+				<include name="**/*Test.xml" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="test" depends="buildtest" description="Run the tests">
+
+		<fail message="Cannot run tests because path to project contains spaces.">
+
+			<condition>
+
+				<contains string="${basedir}" substring=" " />
+			</condition>
+		</fail>
+
+		<condition property="incompatible.jdk" value="true">
+
+			<and>
+
+				<equals arg1="${ant.java.version}" arg2="1.6" />
+
+				<not>
+
+					<available classname="javax.xml.bind.JAXB" />
+				</not>
+			</and>
+		</condition>
+
+		<fail if="incompatible.jdk">
+			You are using an incompatible JDK 6. Please use Sun JDK 6 Update 4
+			(1.6.0_04) or newer or use Open JDK 6.
+		</fail>
+
+		<taskdef classpath="${testng.jar}" resource="testngtasks" />
+
+		<testng haltonfailure="true" haltonskipped="true"
+			outputdir="${basedir}/test-report">
+
+			<jvmarg line="-Dsun.lang.ClassLoader.allowArraySyntax=true" />
+
+			<classpath refid="test.path" />
+
+			<xmlfileset dir="${test.dir}" includes="**/*Test.xml" />
+		</testng>
+	</target>
+
+	<target name="javadoc" depends="compile">
+
+		<mkdir dir="${dist.dir}/apidoc" />
+
+		<javadoc classpathref="build.classpath" destdir="${dist.dir}/apidoc"
+			doctitle="${project.name} API Documentation" link="http://java.sun.com/j2se/5.0/docs/api"
+			protected="true" use="true" version="true"
+			windowtitle="${project.name} API Documentation">
+
+			<packageset defaultexcludes="yes" dir="${src.action.dir}">
+
+				<include name="*/**" />
+			</packageset>
+
+			<packageset defaultexcludes="yes" dir="${src.model.dir}">
+
+				<include name="*/**" />
+			</packageset>
+		</javadoc>
+	</target>
+
+	<target name="validate" depends="stage"
+		description="Validate the XML configuration files">
+
+		<mkdir dir="${schema.dir}" />
+
+		<unjar dest="${schema.dir}" src="${lib.dir}/jboss-seam.jar">
+
+			<patternset>
+
+				<include name="org/jboss/seam/*.xsd" />
+
+				<include name="org/jboss/seam/*.dtd" />
+			</patternset>
+		</unjar>
+
+		<ant antfile="validate.xml" target="validateConfiguration" />
+	</target>
+
+	<target name="purge" depends="undeploy"
+		description="Clean out JBoss AS temporary deployment files">
+
+		<delete dir="${jboss.home}/server/default/tmp/deploy" />
+
+		<mkdir dir="${jboss.home}/server/default/tmp/deploy/" />
+
+		<delete dir="${jboss.home}/server/default/tmp/sessions" />
+
+		<mkdir dir="${jboss.home}/server/default/tmp/sessions" />
+
+		<delete
+			dir="${jboss.home}/server/default/work/jboss.web/localhost/${project.name}" />
+	</target>
+
+	<!-- WSDL-XSD consumption -->
+
+	<target name="consumeWsdl" if="generate-from-schemas">
+
+		<wsconsumeTask destdir="${project.build}" keep="true"
+			sourcedestdir="${project.gen-src}" verbose="true"
+			wsdl="${project.resources}/WEB-INF/ws/flyerServices.wsdl" />
+		<!-- <wsconsume wsdl="${project.resources}/WEB-INF/ws/*.wsdl" /> -->
+	</target>
+
+	<target name="generateMappings">
+
+		<delete dir="resources/database/mappings" />
+
+		<mkdir dir="resources/database/mappings" />
+
+		<createXMLModel configurationfile="resources/hibernate.cfg.xml"
+			packagename="com.amc.ebg.domain.entities" revengefile="resources/hibernate.reveng.xml" />
+
+		<copy flatten="true" todir="resources/database/mappings">
+
+			<fileset dir="temp" includes="**/*.xml" />
+		</copy>
+
+		<delete dir="temp" />
+	</target>
+
+	<taskdef name="tidy" classname="org.w3c.tidy.ant.JTidyTask">
+
+		<classpath>
+
+			<pathelement location="${seam.home}/lib/gen/jtidy.jar" />
+		</classpath>
+	</taskdef>
+
+	<target name="generateEntities">
+
+		<property name="entities.dir" value="src/main/com/amc/ebg/domain/entities" />
+
+		<delete dir="${entities.dir}" />
+
+		<mkdir dir="${entities.dir}" />
+
+		<hibernatetool destdir="src/main">
+
+			<configuration configurationfile="resources/hibernate.cfg.xml">
+			</configuration>
+
+			<classpath>
+
+				<pathelement location="resources" />
+			</classpath>
+
+			<hbm2java ejb3="true" jdk5="true" />
+		</hibernatetool>
+		<!-- -->
+
+		<tidy destdir="out">
+
+			<fileset dir="${entities.dir}" />
+
+			<parameter name="drop-font-tags" value="true" />
+		</tidy>
+
+		<delete dir="out" />
+	</target>
+
+</project>

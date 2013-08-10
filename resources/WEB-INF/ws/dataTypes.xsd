@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://amc.com/xsd/dataTypes" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns="http://amc.com/dataTypes" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:sbc="http://amc.com/xsd/dataTypes">
+			
+	<!-- Input-output elements -->
+	<xsd:element name="IDParams" type="sbc:IDParamsType" />
+	
+	<xsd:element name="categoryList" type="sbc:categoryListType" />
+	
+	<xsd:element name="categoryParams" type="sbc:categoryParamsType" />
+	
+	<xsd:element name="subcategoryParams" type="sbc:categoryParamsType" />
+	
+	<xsd:element name="subscribeParams" type="sbc:subscribeParamsType" />
+	
+	<xsd:element name="unsubscribeParams" type="sbc:subscribeParamsType" />
+	
+	<xsd:element name="flyerListParams" type="sbc:flyerListParamsType" />	
+	<xsd:element name="flyerList" type="sbc:flyerListType" />
+	
+	<xsd:element name="markFavoriteParams" type="sbc:markFavoriteParamsType" />
+	<xsd:element name="removeMarkFavoriteParams" type="sbc:markFavoriteParamsType" />
+	<xsd:element name="markReadParams" type="sbc:markFavoriteParamsType" />
+	
+	<xsd:element name="integer" type="xsd:integer" />
+	<xsd:element name="string" type="xsd:string" />
+	<xsd:element name="boolean" type="xsd:boolean" />
+	
+	<!--  -->	
+			
+	<xsd:simpleType name="genderType">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="MALE" />
+			<xsd:enumeration value="FEMALE" />			
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<xsd:complexType name="IDParamsType">
+		<xsd:sequence>
+			<xsd:element name="name" type="xsd:string" />
+			<xsd:element name="lastName" type="xsd:string" />
+			<xsd:element name="email" type="xsd:string" />
+			<xsd:element name="gender" type="xsd:int" />
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:complexType name="categoryParamsType">
+		<xsd:sequence>
+			<xsd:element name="userToken" type="xsd:string" />
+			<xsd:element name="categoryId" type="xsd:int" />
+			<xsd:element name="onlySubscribed" type="xsd:boolean" />			
+		</xsd:sequence>
+	</xsd:complexType>	
+
+	<xsd:complexType name="categoryType">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:integer" />
+			<xsd:element name="name" type="xsd:string" />
+			<xsd:element name="description" type="xsd:string" />
+			<xsd:element name="isLeaf" type="xsd:boolean" />
+			<xsd:element name="parentId" type="xsd:int" />
+			<xsd:element name="level" type="xsd:int" />
+			<xsd:element name="lastPublishedFlyerTime" type="xsd:string" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="categoryListType">
+		<xsd:sequence>
+			<xsd:element name="categoryList" type="sbc:categoryType" maxOccurs="unbounded" minOccurs="0" />
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:complexType name="subscribeParamsType">
+		<xsd:sequence>
+			<xsd:element name="userID" type="xsd:string" />
+			<xsd:element name="categoryId" type="xsd:integer" />
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:complexType name="flyerListParamsType">
+		<xsd:sequence>
+			<xsd:element name="userID" type="xsd:string" />
+			<xsd:element name="categoryId" type="xsd:integer" />
+			<xsd:element name="eventType" type="sbc:EventType" />
+			<xsd:element name="onlySubscribed" type="xsd:boolean" />
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:complexType name="flyerListType">
+		<xsd:sequence>
+			<xsd:element name="flyerList" type="sbc:flyerType" maxOccurs="unbounded" minOccurs="0" />
+		</xsd:sequence>
+	</xsd:complexType>	
+	
+	<xsd:complexType name="flyerType">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:integer" />
+			<xsd:element name="urlOfFlyer" type="xsd:string" />
+			<xsd:element name="title" type="xsd:string" />
+			<xsd:element name="eventDate" type="xsd:date" />
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:simpleType name="EventType">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="TODAY" />
+			<xsd:enumeration value="WEEK" />
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<xsd:complexType name="markFavoriteParamsType">
+		<xsd:sequence>
+			<xsd:element name="userID" type="xsd:string" />
+			<xsd:element name="flyerID" type="xsd:integer" />
+		</xsd:sequence>
+	</xsd:complexType>
+	
+</xsd:schema>

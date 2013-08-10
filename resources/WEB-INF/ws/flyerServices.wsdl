@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:sb="http://amc.com/flyerServices/"
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ebgServices"
+	targetNamespace="http://amc.com/flyerServices/" xmlns:sbc="http://amc.com/xsd/dataTypes">
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+			<xsd:import namespace="http://amc.com/xsd/dataTypes"
+				schemaLocation="dataTypes.xsd" />
+		</xsd:schema>
+    </wsdl:types>
+
+	<wsdl:message name="getIDRequest">
+		<wsdl:part name="parameter" element="sbc:IDParams"/>
+	</wsdl:message>
+	<wsdl:message name="getIDResponse">
+		<wsdl:part name="parameter" element="sbc:string"/>
+	</wsdl:message>
+	
+	<!--  -->
+	<wsdl:message name="getCategoryListRequest">
+		<wsdl:part name="parameter" element="sbc:categoryParams"/>
+	</wsdl:message>
+	<wsdl:message name="getCategoryListResponse">
+		<wsdl:part name="parameter" element="sbc:categoryList"/>
+	</wsdl:message>
+	
+	<wsdl:message name="getSubCategoryListRequest">
+		<wsdl:part name="parameter" element="sbc:subcategoryParams"/>		
+	</wsdl:message>
+
+	<wsdl:message name="subscribeCategoryRequest">
+		<wsdl:part name="parameter" element="sbc:subscribeParams"/>
+	</wsdl:message>
+	<wsdl:message name="subscribeCategoryResponse">
+		<wsdl:part name="parameter" element="sbc:boolean"/>
+	</wsdl:message>
+
+	<wsdl:message name="unsubscribeCategoryRequest">
+		<wsdl:part name="parameter" element="sbc:unsubscribeParams"/>
+	</wsdl:message>
+	<wsdl:message name="unsubscribeCategoryResponse">
+		<wsdl:part name="parameter" element="sbc:boolean"/>
+	</wsdl:message>
+
+	<wsdl:message name="getListOfFlyersRequest">
+		<wsdl:part name="parameter" element="sbc:flyerListParams"/>
+	</wsdl:message>
+	<wsdl:message name="getListOfFlyersResponse">
+		<wsdl:part name="parameter" element="sbc:flyerList"/>
+	</wsdl:message>
+
+	<wsdl:message name="markAsFavoriteRequest">
+		<wsdl:part name="parameter" element="sbc:markFavoriteParams"/>
+	</wsdl:message>	
+	
+	<wsdl:message name="removeFromFavoriteRequest">
+		<wsdl:part name="parameter" element="sbc:removeMarkFavoriteParams"/>
+	</wsdl:message>	
+
+	<wsdl:message name="markAsReadParametersRequest">
+		<wsdl:part name="parameter" element="sbc:markReadParams"/>
+	</wsdl:message>
+	
+	<wsdl:portType name="flyerServicesPortType">
+		<wsdl:operation name="getID">
+			<wsdl:input message="sb:getIDRequest"/>
+			<wsdl:output message="sb:getIDResponse"/>
+		</wsdl:operation>
+		<wsdl:operation name="getCategoryList">
+			<wsdl:input message="sb:getCategoryListRequest"/>
+			<wsdl:output message="sb:getCategoryListResponse"/>
+		</wsdl:operation>
+		<wsdl:operation name="getSubCategoryList">
+			<wsdl:input message="sb:getSubCategoryListRequest"/>
+			<wsdl:output message="sb:getCategoryListResponse"/>
+		</wsdl:operation>
+		<wsdl:operation name="subscribeCategory">
+			<wsdl:input message="sb:subscribeCategoryRequest"/>
+			<wsdl:output message="sb:subscribeCategoryResponse"/>
+		</wsdl:operation>		
+		<wsdl:operation name="unsubscribeCategory">
+			<wsdl:input message="sb:unsubscribeCategoryRequest"/>
+			<wsdl:output message="sb:unsubscribeCategoryResponse"/>
+		</wsdl:operation>
+		<wsdl:operation name="getListOfFlyers">
+			<wsdl:input message="sb:getListOfFlyersRequest"/>
+			<wsdl:output message="sb:getListOfFlyersResponse"/>
+		</wsdl:operation>
+		<wsdl:operation name="markAsFavorite">
+			<wsdl:input message="sb:markAsFavoriteRequest"/>			
+		</wsdl:operation>
+		<wsdl:operation name="removeFromFavorite">
+			<wsdl:input message="sb:removeFromFavoriteRequest"/>			
+		</wsdl:operation>
+		<wsdl:operation name="markAsReadParameters">
+			<wsdl:input message="sb:markAsReadParametersRequest"/>			
+		</wsdl:operation>
+	</wsdl:portType>
+
+	<wsdl:binding name="flyerServicesSOAP"
+		type="sb:flyerServicesPortType">
+		<soap:binding style="document"
+			transport="http://schemas.xmlsoap.org/soap/http" />		
+		<wsdl:operation name="getID">
+			<soap:operation	soapAction="http://amc.com/registerCustomers/getID" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getCategoryList">
+			<soap:operation	soapAction="getCategoryList" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getSubCategoryList">
+			<soap:operation	soapAction="getSubCategoryList" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="subscribeCategory">
+			<soap:operation soapAction="subscribeCategory" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="unsubscribeCategory">
+			<soap:operation soapAction="unsubscribeCategory" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getListOfFlyers">
+			<soap:operation soapAction="getListOfFlyers" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="markAsFavorite">
+			<soap:operation soapAction="markAsFavorite" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>			
+		</wsdl:operation>
+		<wsdl:operation name="removeFromFavorite">
+			<soap:operation	soapAction="removeFromFavorite" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>			
+		</wsdl:operation>
+		<wsdl:operation name="markAsReadParameters">
+			<soap:operation	soapAction="markAsReadParameters" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+		</wsdl:operation>
+	</wsdl:binding>
+	
+	<wsdl:service name="flyerServices">
+		<wsdl:port binding="sb:flyerServicesSOAP" name="flyerServicesSOAP">
+			<soap:address location="http://www.example.org/" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,34 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:a4j="http://richfaces.org/a4j">
+	
+	<h:form>
+	<div class="toolbar">
+		<div class="navigation" style="float: left;">
+			<ul>
+				<li class="#{flyermenuSelected =='flyerBasicData'?'active':''}">
+					<a4j:commandLink
+						value="#{messages['menuFlyerBasicData']}" action="/flyer/edit.xhtml">					
+					</a4j:commandLink>
+				</li>
+				<li class="#{flyermenuSelected =='flyerImage'?'active':''}">
+					<a4j:commandLink
+						value="#{messages['menuFlyerImage']}" action="/flyer/edit_2.xhtml">					
+					</a4j:commandLink>
+				</li>
+				<li class="#{flyermenuSelected =='flyerPublication'?'active':''}">
+					<a4j:commandLink
+						value="#{messages['menuFlyerPublication']}"	action="/flyer/edit_3.xhtml">						
+					</a4j:commandLink>
+				</li>					
+			</ul>
+		</div>
+	</div>
+	</h:form>
+		
+</ui:composition>

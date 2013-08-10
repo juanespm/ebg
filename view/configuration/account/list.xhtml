@@ -1,0 +1,184 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:a4j="http://richfaces.org/a4j"
+	template="/layout/template.xhtml">
+	
+	<ui:param name="menuSelected" value="configuration" />
+	<ui:param name="configMenuSelected" value="configurationAccounts" />
+
+	<ui:define name="body">
+		<ui:include src="/configuration/menu.xhtml" />
+	
+		<h:form id="filterForm">
+			<fieldset class="border">
+				<legend class="title">#{messages['accounts']}</legend>
+				
+				<s:decorate template="/layout/display.xhtml">
+					<ui:define name="label">#{messages['createNewAccount']}</ui:define>
+					<s:button value="#{messages['createNew']}" view="/configuration/account/edit.xhtml" propagation="none">
+						<f:param name="id" value="-1"/>
+					</s:button>
+				</s:decorate>
+			</fieldset>
+			
+			<fieldset class="border">
+				<legend class="title">#{messages['filter']}</legend>
+				
+				<h:panelGrid columns="3">
+				<s:decorate template="/layout/display.xhtml">
+					<ui:define name="label">#{messages['name']}:</ui:define>
+					<h:inputText value="#{accountListAction.form.name}" />
+				</s:decorate>
+					
+				<s:decorate template="/layout/display.xhtml">
+					<ui:define name="label">#{messages['accountType']}:</ui:define>
+					<h:selectOneMenu value="#{accountListAction.form.accountType}">
+						<f:selectItems value="#{selectItemsProvider.accountTypes}"/>						
+					</h:selectOneMenu>
+				</s:decorate>
+				
+				<s:decorate template="/layout/display.xhtml">
+					<ui:define name="label">#{messages['status']}:</ui:define>
+					<h:selectOneMenu value="#{accountListAction.form.status}">
+						<f:selectItems value="#{selectItemsProvider.statuses}"/>								
+					</h:selectOneMenu>
+				</s:decorate>
+				
+				<div>
+					<s:decorate template="/layout/display.xhtml">
+						<ui:define name="label">#{messages['dateOf']}:</ui:define>
+						<h:selectOneMenu value="#{accountListAction.form.period.periodType}">
+							<f:selectItems value="#{selectItemsProvider.accountPeriodTypes}"/>
+						</h:selectOneMenu>
+					</s:decorate>
+					
+					<h:panelGroup>
+						<h:outputText value="#{messages['since']}: " />
+						<rich:calendar value="#{accountListAction.form.period.lowerDate}" 
+							datePattern="dd/MM/yyyy HH:mm" popup="true"/>
+						<h:outputText value="#{messages['upTo']}: " />
+						<rich:calendar value="#{accountListAction.form.period.higherDate}"  
+							datePattern="dd/MM/yyyy HH:mm" popup="true"/>
+					</h:panelGroup>
+				</div>
+				</h:panelGrid>
+				
+				<div>
+					<h:commandButton value="#{messages['search']}" action="#{accountListAction.search()}" >
+						<f:param name="name" value="#{accountListAction.form.name}"/>						
+						<f:param name="accountType" value="#{accountListAction.form.accountType}"/>
+						<f:param name="status" value="#{accountListAction.form.status}"/>
+						<f:param name="periodType" value="#{accountListAction.form.period.periodType}"/>					
+						<f:param name="lowerTime" value="#{accountListAction.form.period.lowerDate == null ? '':accountListAction.form.period.lowerDate.time}"/>
+						<f:param name="higherTime" value="#{accountListAction.form.period.higherDate == null ? '':accountListAction.form.period.higherDate.time}"/>
+						
+					</h:commandButton>
+					<h:commandButton value="#{messages['reset']}" action="#{accountListAction.reset()}" />
+				</div>
+			</fieldset>
+		</h:form>
+		
+		<h:form id="resultsForm">
+			<fieldset class="border">
+			<legend class="title">#{messages['results']}</legend>
+			<ui:param name="resultsFound" value="#{accountListAction.paginator.list.size() > 0}" />
+						
+			<s:fragment rendered="#{resultsFound}">				
+				<a4j:outputPanel id="listPanel" ajaxRendered="true">
+					<rich:dataTable id="listTable"
+						value="#{accountListAction.paginator.list}"
+						var="_item" rowKeyVar="indexRow"
+						width="80%">
+						<rich:column>
+							<f:facet name="header">							
+								<h:outputText value="#{messages['id']}" />
+							</f:facet>
+							<h:outputText value="#{_item.id}" />
+						</rich:column>
+						
+						<rich:column>
+							<f:facet name="header">							
+								<h:outputText value="#{messages['name']}" />
+							</f:facet>
+							<h:outputText value="#{_item.name}" />
+						</rich:column>
+						
+						<rich:column>
+							<f:facet name="header">							
+								<h:outputText value="#{messages['registrationDate']}" />
+							</f:facet>
+							<h:outputText value="#{_item.registrationDate}">
+								<s:convertDateTime pattern="dd/MM/yyyy HH:mm"/>
+							</h:outputText>
+						</rich:column>
+						
+						<rich:column>
+							<f:facet name="header">							
+								<h:outputText value="#{messages['modification']}" />
+							</f:facet>
+							<h:outputText value="#{_item.modificationDate}">
+								<s:convertDateTime pattern="dd/MM/yyyy HH:mm"/>
+							</h:outputText>
+						</rich:column>
+						
+						<rich:column rendered="false">
+							<f:facet name="header">							
+								<h:outputText value="#{messages['accountType']}" />
+							</f:facet>
+							<h:outputText value="#{_item.accountType.name}" />
+						</rich:column>
+						
+						<rich:column>
+							<f:facet name="header">							
+								<h:outputText value="#{messages['status']}" />
+							</f:facet>
+							<h:outputText value="#{_item.status.name}"/>
+						</rich:column>
+						
+						<rich:column width="220" style="text-align: center;">
+							<f:facet name="header">							
+								<h:outputText value="[ #{messages['actions']} ]" />								
+							</f:facet>							
+							<a4j:commandButton value="#{messages['actions.activate']}" 
+								rendered="#{_item.status.name == 'DISABLED'}"
+								action="#{accountListAction.activate(_item)}"
+								ajaxSingle="true"
+								reRender="listPanel"
+								limitToList="true"
+								onclick="if(confirm('#{messages['confirmation.activateAccount']}')){showWaitDialog();} else {return false;}">
+							</a4j:commandButton>							
+							<a4j:commandButton value="#{messages['actions.deactivate']}" 
+								rendered="#{_item.status.name == 'ACTIVE'}"
+								action="#{accountListAction.deactivate(_item)}"
+								ajaxSingle="true"
+								reRender="listPanel"
+								limitToList="true"
+								onclick="if(confirm('#{messages['confirmation.deactivateAccount']}')){showWaitDialog();} else {return false;}">							
+							</a4j:commandButton>
+							<s:button value="#{messages['actions.modify']}" view="/configuration/account/edit.xhtml">								
+								<f:param name="id" value="#{_item.id}"/>
+							</s:button>														
+						</rich:column>
+						
+					</rich:dataTable>
+					<!-- Pager -->
+					<rich:separator width="0" height="5" />
+					<ui:include src="/layout/paginator.xhtml">
+						<ui:param name="pager" value="#{accountListAction.paginator}" />
+						<ui:param name="refresh" value="listPanel" />
+						<ui:param name="showPageSize" value="true" />
+					</ui:include>				
+				</a4j:outputPanel>					
+			</s:fragment>
+			<s:fragment rendered="#{not resultsFound}">
+				<h:outputText value="#{messages['noResultsFound']}" styleClass="highlighted"/>
+			</s:fragment>
+			</fieldset>			
+		</h:form>
+	</ui:define>
+</ui:composition>

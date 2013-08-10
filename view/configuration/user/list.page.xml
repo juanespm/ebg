@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page login-required="true" xmlns="http://jboss.com/products/seam/pages"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://jboss.com/products/seam/pages http://jboss.com/products/seam/pages-2.2.xsd">
+		
+	<param name="name" value="#{userListAction.form.name}"/>
+	<param name="role" value="#{userListAction.form.role}"/>
+	<param name="accountType" value="#{userListAction.form.accountType}"/>
+	<param name="status" value="#{userListAction.form.status}"/>	
+	<param name="lowerTime" value="#{userListAction.form.period.lowerTime}"/>
+	<param name="higherTime" value="#{userListAction.form.period.higherTime}"/>
+	<param name="periodType" value="#{userListAction.form.period.periodType}"/>		
+	
+</page>

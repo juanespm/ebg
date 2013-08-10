@@ -1,0 +1,231 @@
+<mockup version="1.0" skin="sketch" measuredW="1071" measuredH="707">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="1" w="1061" h="696" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>EBG%0Ahttp%3A//www.ebg.com/dashboard.seam</text>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::DataGrid" x="107" y="457" w="793" h="118" measuredW="281" measuredH="148" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%2Cusuario%20%2C%20rol%20%2C%20estado%0A%2Ceugenio%2C%20administrador%20%2C%20activo%0A%2Cescobar%2C%20docente%20%2C%20activo%0A%2Cjuanito%2Cparticipante%2Cactivo%0A%2Cmaria%2C%20participante%2Cinactivo</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="364" y="647" w="260" h="25" measuredW="259" measuredH="25" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>CopyRight-2013%20Santa%20Cruz%20bolivia%20amc%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="131" controlTypeID="com.balsamiq.mockups::Button" x="562" y="397" w="-1" h="-1" measuredW="76" measuredH="28" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <href>ebg_web_lista_usuario.bmml</href>
+        <text>cancelar</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="__group__" x="7" y="71" w="388" h="77" measuredW="388" measuredH="77" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="12" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="314" h="77" measuredW="380" measuredH="400" zOrder="0" locked="false" isInGroup="15">
+          <controlProperties>
+            <src>./img/bg.jpg</src>
+            <filter>true</filter>
+          </controlProperties>
+        </control>
+        <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="320" y="26" w="68" h="51" measuredW="68" measuredH="51" zOrder="1" locked="false" isInGroup="15">
+          <controlProperties>
+            <text>EBG</text>
+            <size>32</size>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::Button" x="681" y="590" w="-1" h="-1" measuredW="81" measuredH="28" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>modificar</text>
+      </controlProperties>
+    </control>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::Button" x="772" y="590" w="-1" h="-1" measuredW="72" measuredH="28" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>eliminar</text>
+      </controlProperties>
+    </control>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Button" x="852" y="590" w="-1" h="-1" measuredW="44" measuredH="28" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ver</text>
+      </controlProperties>
+    </control>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::RadioButton" x="124" y="482" w="21" h="18" measuredW="27" measuredH="18" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::RadioButton" x="124" y="511" w="21" h="18" measuredW="27" measuredH="18" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::RadioButton" x="124" y="540" w="21" h="18" measuredW="27" measuredH="18" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="993" h="601" measuredW="100" measuredH="70" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <backgroundAlpha>0.75</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="134" controlTypeID="com.balsamiq.mockups::ComboBox" x="579" y="205" w="118" h="-1" measuredW="120" measuredH="25" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Administrador</text>
+        <bold>false</bold>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::FieldSet" x="60" y="190" w="888" h="223" measuredW="200" measuredH="170" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Filtro</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::FieldSet" x="60" y="436" w="888" h="190" measuredW="200" measuredH="170" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Parametros%20Basicos</text>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Button" x="120" y="348" w="-1" h="-1" measuredW="108" measuredH="28" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>crear%20usuario</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="60" y="142" w="-1" h="-1" measuredW="104" measuredH="25" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Inicio%2Cusuario</text>
+      </controlProperties>
+    </control>
+    <control controlID="140" controlTypeID="com.balsamiq.mockups::TextInput" x="372" y="283" w="79" h="-1" measuredW="79" measuredH="29" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="141" controlTypeID="com.balsamiq.mockups::Label" x="332" y="247" w="38" h="25" measuredW="36" measuredH="25" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>clave</text>
+        <bold>false</bold>
+      </controlProperties>
+    </control>
+    <control controlID="142" controlTypeID="com.balsamiq.mockups::TextInput" x="372" y="243" w="79" h="-1" measuredW="79" measuredH="29" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="143" controlTypeID="com.balsamiq.mockups::Label" x="318" y="208" w="52" h="25" measuredW="48" measuredH="25" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>usuario</text>
+        <bold>false</bold>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Link" x="721" y="108" w="-1" h="-1" measuredW="127" measuredH="25" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>ebg_web_cambiar_contrasenia.bmml</href>
+        <text>cambiar%20contrase%F1a</text>
+      </controlProperties>
+    </control>
+    <control controlID="136" controlTypeID="com.balsamiq.mockups::List" x="541" y="239" w="156" h="126" measuredW="100" measuredH="126" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>decisiones%0Aasignaciones%0Aprocesamieto</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Label" x="861" y="108" w="-1" h="-1" measuredW="147" measuredH="25" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Administrador%3A%20Eugenio</text>
+      </controlProperties>
+    </control>
+    <control controlID="128" controlTypeID="com.balsamiq.mockups::TitleWindow" x="254" y="175" w="465" h="282" measuredW="450" measuredH="400" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <topheight>26</topheight>
+        <text>crear%20usuario</text>
+        <close>true</close>
+      </controlProperties>
+    </control>
+    <control controlID="139" controlTypeID="com.balsamiq.mockups::Label" x="269" y="288" w="101" h="25" measuredW="99" measuredH="25" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>confirmar%20clave</text>
+        <bold>false</bold>
+      </controlProperties>
+    </control>
+    <control controlID="130" controlTypeID="com.balsamiq.mockups::Button" x="648" y="397" w="-1" h="-1" measuredW="57" measuredH="28" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <href>ebg_web_lista_usuario.bmml</href>
+        <text>crear</text>
+      </controlProperties>
+    </control>
+    <control controlID="144" controlTypeID="com.balsamiq.mockups::TextInput" x="372" y="205" w="79" h="-1" measuredW="79" measuredH="29" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="135" controlTypeID="com.balsamiq.mockups::VRule" x="490" y="209" w="-1" h="178" measuredW="5" measuredH="100" zOrder="31" locked="false" isInGroup="-1"/>
+    <control controlID="137" controlTypeID="com.balsamiq.mockups::Label" x="323" y="324" w="47" h="25" measuredW="47" measuredH="25" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>estado</text>
+        <bold>false</bold>
+      </controlProperties>
+    </control>
+    <control controlID="108" controlTypeID="com.balsamiq.mockups::Label" x="541" y="206" w="22" h="25" measuredW="22" measuredH="25" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>rol</text>
+      </controlProperties>
+    </control>
+    <control controlID="138" controlTypeID="com.balsamiq.mockups::ComboBox" x="372" y="324" w="72" h="-1" measuredW="71" measuredH="72" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Activo%0AInactivo%0AEliminado</text>
+        <bold>false</bold>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Link" x="633" y="107" w="-1" h="-1" measuredW="82" measuredH="25" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>ebg_web_login.bmml</href>
+        <text>salir%20sistema</text>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::TextInput" x="182" y="231" w="182" h="-1" measuredW="79" measuredH="29" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Label" x="118" y="235" w="-1" h="-1" measuredW="49" measuredH="25" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>usuario</text>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Label" x="457" y="235" w="-1" h="-1" measuredW="47" measuredH="25" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>estado</text>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::TextInput" x="519" y="231" w="196" h="-1" measuredW="79" measuredH="29" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Label" x="141" y="288" w="26" h="25" measuredW="22" measuredH="25" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>rol</text>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::TextInput" x="182" y="286" w="182" h="-1" measuredW="79" measuredH="29" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Button" x="833" y="348" w="-1" h="-1" measuredW="65" measuredH="28" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>buscar</text>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Button" x="754" y="348" w="-1" h="-1" measuredW="64" measuredH="28" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>limpiar</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
