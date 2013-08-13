@@ -12,11 +12,10 @@
 	<ui:define name="body">
 		<fieldset class="border">
 			<legend class="title">#{messages['dashboard.user.title']}</legend>
-			<table>
-				<tr>
-					<td>#{messages['publishedPlural']}</td>
-				</tr>
-			</table>
+
+			<s:button view="/user/list.xhtml"
+				value="#{messages['dashboard.user.list']}"></s:button>
+
 		</fieldset>
 	</ui:define>
 </ui:composition>
