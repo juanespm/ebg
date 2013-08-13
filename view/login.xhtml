@@ -38,12 +38,13 @@
 							style="width:230px;" />
 					</s:decorate>
 				</s:div>
-				<br />		
-					<div align="left">
+				<br />
+				<s:div style="display:inblock;">
+					<div style="clear: both; float: left;">
 						<a4j:commandLink oncomplete=""
 							value="#{messages['login.forgotpassword']}" />
 					</div>
-					<div align="right">
+					<div style="clear: both; float: right;">
 						<h:commandLink id="loginButton" styleClass="button b-24px"
 							action="#{identity.login()}">
 							<s:span>
@@ -52,6 +53,7 @@
 							<s:defaultAction />
 						</h:commandLink>
 					</div>
+				</s:div>
 			</h:form>
 		</fieldset>
 	</ui:define>
