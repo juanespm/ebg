@@ -1,12 +1,9 @@
 package com.amc.ebg.dao;
 
-import ch.swissbytes.commons.persistence.EntityEnum;
-import ch.swissbytes.commons.persistence.Persister;
-
-import javax.persistence.EntityManager;
-
 import java.io.Serializable;
 import java.util.List;
+
+import javax.persistence.EntityManager;
 
 import org.hibernate.Criteria;
 import org.hibernate.Session;
@@ -14,9 +11,11 @@ import org.jboss.seam.annotations.In;
 import org.jboss.seam.annotations.Name;
 import org.jboss.seam.annotations.Transactional;
 
+import ch.swissbytes.commons.persistence.EntityEnum;
+import ch.swissbytes.commons.persistence.Persister;
+
 /**
  * @author Alvaro Cardozo
- * 
  */
 @Name(EntityPersister.NAME)
 public class EntityPersister implements Persister {
@@ -121,4 +120,7 @@ public class EntityPersister implements Persister {
         entityManager.remove(entity);
     }
 
+    public EntityManager getEntityManager() {
+        return entityManager;
+    }
 }

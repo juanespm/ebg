@@ -5,5 +5,174 @@
 	xmlns:ui="http://java.sun.com/jsf/facelets"
 	xmlns:f="http://java.sun.com/jsf/core"
 	xmlns:h="http://java.sun.com/jsf/html"
-	xmlns:rich="http://richfaces.org/rich" template="../layout/template.xhtml">
+	xmlns:rich="http://richfaces.org/rich"
+	template="../layout/template.xhtml">
+	<ui:define name="body">
+
+		<h3 class="title">#{messages['userMainPage.title.filter']}</h3>
+		<br />
+		<br />
+		<h:form id="idUserListF">
+			<s:div id="idColumnValuesUser" styleClass="short-column">
+				<s:decorate template="../layout/edit.xhtml">
+					<ui:define name="label">#{messages['userMainPage.filter.label.username']}:</ui:define>
+					<h:inputText id="userNameValueF"
+						value="#{userListAction.form.userName}" />
+				</s:decorate>
+				<s:decorate template="../layout/edit.xhtml">
+					<ui:define name="label">#{messages['userMainPage.filter.label.email']}:</ui:define>
+					<h:inputText id="emailValueF" value="#{userListAction.form.email}">
+					</h:inputText>
+				</s:decorate>
+			</s:div>
+			<s:div id="idColumnStatus" styleClass="short-column">
+				<s:decorate template="../layout/edit.xhtml">
+					<ui:define name="label">#{messages['userMainPage.filter.label.status']}:</ui:define>
+					<h:selectOneMenu id="status" value="#{userListAction.form.status}">
+						<s:selectItems
+							value="#{selectItemsProvider.userStatusesNotElimated}"
+							noSelectionLabel="#{messages['common.label.all']}"
+							var="_usertStatus" itemValue="#{_usertStatus.value}"
+							label="#{_usertStatus.label}" />
+					</h:selectOneMenu>
+					<ui:param name="labelClass" value="extended-label" />
+				</s:decorate>
+				<s:decorate template="../layout/edit.xhtml">
+					<ui:define name="label">#{messages['userMainPage.filter.label.city']}:</ui:define>
+					<h:selectOneMenu value="#{userListAction.form.city}">
+						<s:selectItems value="#{selectItemsProvider.cities}"
+							var="_userCities" label="#{_userCities.name}"
+							noSelectionLabel="#{messages['common.label.all']}" />
+						<s:convertEntity />
+					</h:selectOneMenu>
+					<ui:param name="labelClass" value="extended-label" />
+				</s:decorate>
+			</s:div>
+			<s:div id="idColumnRoles" styleClass="short-column">
+				<s:decorate template="../layout/edit.xhtml">
+					<ui:define name="label">#{messages['userMainPage.filter.label.rol']}</ui:define>
+					<h:selectOneMenu value="#{userListAction.form.role}">
+						<s:selectItems value="#{selectItemsProvider.userRoles}"
+							noSelectionLabel="#{messages['common.label.all']}"
+							var="_userRole" itemValue="#{_userRole.value}"
+							label="#{_userRole.label}">
+						</s:selectItems>
+						<ui:param name="labelClass" value="extended-label" />
+					</h:selectOneMenu>
+				</s:decorate>
+			</s:div>
+			<div style="clear: both;"></div>
+			<div style="clear: both;"></div>
+			<s:div styleClass="command-full">
+				<s:span styleClass="left">
+					<a4j:commandButton id="idCreateUserFormModal"
+						value="#{messages['userMainPage.button.createUser']}"
+						oncomplete="Richfaces.showModalPanel('createUserModal')"
+						reRender="createUserModal" />
+				</s:span>
+				<s:span styleClass="right">
+					<a4j:commandButton value="#{messages['common.button.clean']}"
+						action="#{userListAction.reset()}"
+						reRender="idColumnValuesUser,idColumnStatus,idColumnRoles,idDataUsers">
+					</a4j:commandButton>
+					<a4j:commandButton value="#{messages['common.button.find']}"
+						action="#{userListAction.search()}" reRender="idDataUsers" />
+				</s:span>
+			</s:div>
+			<div style="clear: both;"></div>
+			<hr class="separator" />
+		</h:form>
+		<h:form>
+			<h3 class="title">#{messages['userMainPage.title.list']}</h3>
+
+			<s:div id="idDataUsers">
+				<h:outputLabel id="idMessagesNoUsers"
+					value="#{messages['userMainPage.list.not.found']}"
+					rendered="#{empty userListAction.paginator.list}" />
+				<rich:dataTable id="userList"
+					rendered="#{not empty userListAction.paginator.list}"
+					value="#{userListAction.paginator.list}" var="_user">
+					<rich:column>
+						<f:facet name="header"></f:facet>
+						<input type="radio" name="user" onclick=""> <a4j:support
+								event="onclick"
+								action="#{usersRegisterAction.setUserForm(_user)}" /> </input>
+					</rich:column>
+					<rich:column styleClass="columnTable" sortBy="#{_user.userName}">
+						<f:facet name="header">#{messages['userMainPage.list.column.username']}</f:facet>
+						<h:outputText value="#{_user.userName}" />
+					</rich:column>
+					<rich:column styleClass="columnTable" sortBy="#{_user.role.name}">
+						<f:facet name="header">#{messages['userMainPage.list.column.Role']}</f:facet>
+						<h:outputText value="#{_user.role.name}" />
+					</rich:column>
+					<rich:column styleClass="columnTable" sortBy="#{_user.email}">
+						<f:facet name="header">#{messages['userMainPage.list.column.email']}</f:facet>
+						<h:outputText value="#{_user.email}" />
+					</rich:column>
+					<rich:column styleClass="columnTable">
+						<f:facet name="header">#{messages['userMainPage.list.column.city']}</f:facet>
+						<ui:repeat var="_cityUser"
+							value="#{usersRegisterAction.findCityUsers(_user)}">
+							<s:div rendered="#{_cityUser.isChecked}">
+								<h:outputText value="#{_cityUser.city.name}" />
+								<br />
+							</s:div>
+						</ui:repeat>
+					</rich:column>
+					<rich:column styleClass="columnTable" sortBy="#{_user.status.name}">
+						<f:facet name="header">#{messages['userMainPage.list.column.Status']}</f:facet>
+						<h:outputLabel value="#{_user.status.name}" />
+					</rich:column>
+				</rich:dataTable>
+
+				<div style="clear: both;"></div>
+				<hr class="separator" />
+				<ui:include src="../layout/paginator.xhtml">
+					<ui:param name="pager" value="#{userListAction.paginator}" />
+					<ui:param name="refresh" value="idDataUsers" />
+					<ui:param name="showPageSize" value="true" />
+				</ui:include>
+
+			</s:div>
+			<s:span styleClass="right">
+				<a4j:commandButton
+					value="#{messages['userMainPage.button.deleteUser']}"
+					oncomplete="Richfaces.showModalPanel('idDeleteUserModal')"
+					reRender="idDeleteUserModal" />
+				<a4j:commandButton
+					value="#{messages['userMainPage.button.changePwdUser']}"
+					oncomplete="Richfaces.showModalPanel('idChangePwdUserRegisterModal')"
+					reRender="idChangePwdUserRegisterModal" />
+				<a4j:commandButton id="idUpdateUserFormModal"
+					value="#{messages['userMainPage.button.updateUser']}"
+					oncomplete="Richfaces.showModalPanel('idUpdateUserModal')"
+					reRender="idUpdateUserModal" />
+				<a4j:commandButton
+					value="#{messages['userMainPage.button.viewUser']}"
+					oncomplete="Richfaces.showModalPanel('idViewUserModal')"
+					reRender="idViewUserModal" />
+			</s:span>
+			<div style="clear: both;"></div>
+			<div style="clear: both;"></div>
+		</h:form>
+		<rich:modalPanel id="createUserModal" width="750" height="330"
+			resizeable="false" moveable="false">
+			<f:facet name="header"> #{messages['createUser.title']}</f:facet>
+			<f:facet name="controls">
+				<h:form>
+					<h:graphicImage value="/img/close.png" style="cursor: pointer">
+						<a4j:support event="onclick"
+							oncomplete="Richfaces.hideModalPanel('createUserModal')">
+						</a4j:support>
+					</h:graphicImage>
+				</h:form>
+			</f:facet>
+			<ui:include src="modal/createUser.xhtml" />
+		</rich:modalPanel>
+		<ui:include src="modal/updateUser.xhtml" />
+		<ui:include src="modal/changePasswordRegister.xhtml" />
+		<ui:include src="modal/viewUser.xhtml" />
+		<ui:include src="modal/deleteUser.xhtml" />
+	</ui:define>
 </ui:composition>
